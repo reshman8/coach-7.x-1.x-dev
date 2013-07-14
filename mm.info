@@ -1,7 +1,23 @@
-name = mm Profile
-description = Installation training
+name = TCI Profile
+description = Installation by Mauro
 version = 1.x-dev
 core = 7.x  
+
+; Drupal Core
+dependencies[] = menu
+dependencies[] = image
+dependencies[] = list
+dependencies[] = number
+dependencies[] = options
+dependencies[] = path
+dependencies[] = taxonomy
+dependencies[] = search
+dependencies[] = shortcut
+dependencies[] = field
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = dblog
+dependencies[] = update
 
 ; Panopoly Foundation
 dependencies[] = panopoly_core
