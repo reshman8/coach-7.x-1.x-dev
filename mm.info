@@ -1,0 +1,4 @@
+name = mm Profile
+description = Installation training
+version = 1.x-dev
+core = 7.x  
