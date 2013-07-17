@@ -26,6 +26,7 @@ dependencies[] = diff
 dependencies[] = backup_migrate 
 dependencies[] = derivicon 
 dependencies[] = context 
+dependencies[] = nodehierarchy
 
 
 ; features[features_api][] = api:1 

@@ -10,7 +10,7 @@
 
 ??????????????????????? 
 
-
+WINS ???
 mm_install_tasks
 
 
@@ -29,7 +29,7 @@ install_stuff_install_tasks
 
 
 
-function install_stuff_install_tasks($install_state) {
+function mm_install_tasks($install_state) {
   $tasks = array();
 
   // Add the Panopoly App Server to the Installation Process
