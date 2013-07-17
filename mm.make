@@ -7,6 +7,7 @@ core = 7.x
  projects[diff][subdir] = contrib
  projects[backup_migrate][subdir] = contrib
  projects[derivicon][subdir] = contrib
+ projects[context][subdir] = contrib
 
 ; The Panopoly Foundation
 

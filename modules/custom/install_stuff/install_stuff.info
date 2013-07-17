@@ -6,40 +6,50 @@ package = Features
 php = 5.2.4
 version = 7.x-1.0
 project = install_stuff
-dependencies[] = admin_menu
-dependencies[] = backup_migrate
-dependencies[] = coffee
+
+
+
+
+; investigate
 dependencies[] = color
-dependencies[] = devel
 dependencies[] = devel_generate
-dependencies[] = diff
 dependencies[] = features
 dependencies[] = menu
 dependencies[] = module_filter
 dependencies[] = views
 
-features[features_api][] = api:1 
+; mm256 
+dependencies[] = admin_menu 
+dependencies[] = coffee 
+dependencies[] = devel 
+dependencies[] = diff 
+dependencies[] = backup_migrate 
+dependencies[] = derivicon 
+dependencies[] = context 
 
-dependencies[] = image
-dependencies[] = list
-dependencies[] = number
-dependencies[] = options
-dependencies[] = path
-dependencies[] = taxonomy
-dependencies[] = search
-dependencies[] = shortcut
-dependencies[] = field
-dependencies[] = field_ui
-dependencies[] = file
-dependencies[] = dblog
-dependencies[] = update
 
-; Panopoly Recommended - Admin
-dependencies[] = navbar
-dependencies[] = backports
-dependencies[] = simplified_menu_admin
-dependencies[] = save_draft
-dependencies[] = date_popup_authored
+; features[features_api][] = api:1 
+; 
+; dependencies[] = image
+; dependencies[] = list
+; dependencies[] = number
+; dependencies[] = options
+; dependencies[] = path
+; dependencies[] = taxonomy
+; dependencies[] = search
+; dependencies[] = shortcut
+; dependencies[] = field
+; dependencies[] = field_ui
+; dependencies[] = file
+; dependencies[] = dblog
+; dependencies[] = update
+; 
+; ; Panopoly Recommended - Admin
+; dependencies[] = navbar
+; dependencies[] = backports
+; dependencies[] = simplified_menu_admin
+; dependencies[] = save_draft
+; dependencies[] = date_popup_authored
 
 ; Panopoly Recommended - Other
 ;dependencies[] = uuid
