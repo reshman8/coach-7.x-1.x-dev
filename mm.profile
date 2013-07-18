@@ -28,11 +28,11 @@ function mm_install_tasks($install_state) {
  */
 
 
-function minimal_form_install_configure_form_alter(&$form, &$form_state, $form_id) {
+function mm_form_install_configure_form_alter(&$form, &$form_state, $form_id) {
   drupal_set_message($form_id);  // print form ID to messages
   drupal_set_message(print_r($form, TRUE));  // print array to messages
   $form['site_information']['site_name']['#default_value'] = "The Coaching Institute";
   //$form['install_configure_form']['site_name']['#default_value'] = $_SERVER['SERVER_NAME'];
-  $form['site_information']['site_mail']['#default_value'] = "@thecoachinginstitute.com.a";
+  $form['site_information']['site_mail']['#default_value'] = "noreply@thecoachinginstitute.com.aau";
   $form['admin_account']['account']['name']['#default_value'] = 'admin';
 }
