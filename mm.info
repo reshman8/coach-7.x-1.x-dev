@@ -1,6 +1,6 @@
 name = TCI Profile
-description = Installation by Mauro
-version = 1.x-dev
+description = Development
+; version = 1.x-dev
 core = 7.x  
 
 
@@ -15,7 +15,7 @@ dependencies[] = panopoly_users
 
 ; Panopoly Toolset
 dependencies[] = panopoly_pages
-dependencies[] = panopoly_search
+; dependencies[] = panopoly_search
 dependencies[] = panopoly_wysiwyg
 
 
