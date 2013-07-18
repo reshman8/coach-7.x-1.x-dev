@@ -1,14 +1,11 @@
-; by Mauro Mazzerioli Web
+; investigate name and project, is it mm or install_stuff
+
 name = install stuff
+
 description = install different stuff
 core = 7.x
-package = Features
-php = 5.2.4
-version = 7.x-1.0
+
 project = install_stuff
-
-
-
 
 ; investigate
 dependencies[] = color
