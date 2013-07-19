@@ -1,7 +1,0 @@
-<?php
-/**
- * @file
- * Code for the install_stuff_settings_of_dependencies feature.
- */
-
-include_once 'install_stuff_settings_of_dependencies.features.inc';
