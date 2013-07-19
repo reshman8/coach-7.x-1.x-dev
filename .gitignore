@@ -1,6 +1,10 @@
 libraries
+
 modules/*
 !modules/custom
+!modules/panopoly
+
 themes/*
 !themes/custom
+
 .DS_Store  
