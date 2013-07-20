@@ -1435,6 +1435,7 @@ function permissions_user_default_permissions() {
     'name' => 'flush caches',
     'roles' => array(
       'administrator' => 'administrator',
+      'editor' => 'editor',
     ),
     'module' => 'admin_menu',
   );
