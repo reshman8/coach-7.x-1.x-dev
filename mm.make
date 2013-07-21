@@ -68,11 +68,12 @@ core = 7.x
 
 ; Asu cas
 
-projects[asu_cas][version] = 1.x-dev
+projects[asu_cas]
+;projects[asu_cas][version] = 1.x-dev
 projects[asu_cas][subdir] = custom
 projects[asu_cas][download][type] = git
-projects[asu_cas][download][revision] = 70a7c50
-projects[asu_cas][download][branch] = 7.x-1.x
+;projects[asu_cas][download][revision] = 70a7c50
+;projects[asu_cas][download][branch] = 7.x-1.x
 projects[asu_cas][download][url] = https://github.com/kalamuna/asu_cas.git
 
 ; Bootstrap Framework
