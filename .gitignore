@@ -6,5 +6,6 @@ modules/*
 
 themes/*
 !themes/custom
+!themes/openasu_bootstrap_2
 
 .DS_Store  
