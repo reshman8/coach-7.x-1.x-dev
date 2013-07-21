@@ -1,0 +1,14 @@
+name = install stuff for Panopoly News App
+core = 7.x
+package = Features
+version = 7.x-1.0
+project = install_stuff_for_panopoly_news_app
+dependencies[] = ctools
+dependencies[] = defaultconfig
+dependencies[] = panopoly_news_demo
+dependencies[] = strongarm
+features[ctools][] = strongarm:strongarm:1
+features[defaultconfig][] = strongarm:panopoly_news_demo_taxonomy
+features[features_api][] = api:1
+features[variable][] = panopoly_news_demo_taxonomy
+project path = profiles/mm/modules/custom
