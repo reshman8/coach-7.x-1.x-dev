@@ -68,10 +68,9 @@ core = 7.x
 
 ; Asu cas
 
-projects[asu_cas]
 ;projects[asu_cas][version] = 1.x-dev
-projects[asu_cas][subdir] = custom
-projects[asu_cas][download][type] = git
+;projects[asu_cas][subdir] = custom
+;projects[asu_cas][download][type] = git
 ;projects[asu_cas][download][revision] = 70a7c50
 ;projects[asu_cas][download][branch] = 7.x-1.x
 projects[asu_cas][download][url] = https://github.com/kalamuna/asu_cas.git
@@ -81,12 +80,12 @@ projects[asu_cas][download][url] = https://github.com/kalamuna/asu_cas.git
 projects[kalatheme][version] = 1.0-rc4
 projects[kalatheme][type] = theme
 
-projects[openasu_bootstrap][version] = 1.x-dev
-projects[openasu_bootstrap][type] = theme
-projects[openasu_bootstrap][download][type] = git
-projects[openasu_bootstrap][download][revision] = 6aae928
-projects[openasu_bootstrap][download][branch] = 7.x-1.x
-projects[openasu_bootstrap][download][url] = https://github.com/kalamuna/openasu_bootstrap.git
+;projects[openasu_bootstrap][version] = 1.x-dev
+;projects[openasu_bootstrap][type] = theme
+;projects[openasu_bootstrap][download][type] = git
+;projects[openasu_bootstrap][download][revision] = 6aae928
+;projects[openasu_bootstrap][download][branch] = 7.x-1.x
+;projects[openasu_bootstrap][download][url] = https://github.com/kalamuna/openasu_bootstrap.git
 
 libraries[bootstrap][download][type] = get
 libraries[bootstrap][download][url] = https://github.com/kalamuna/asu_bootlibrary/archive/v2.3.0.zip
