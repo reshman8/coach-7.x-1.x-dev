@@ -104,55 +104,55 @@ projects[libraries][subdir] = contrib
   
   ; Restaurant
   
-  projects[restaurant_base][type] = module
-  projects[restaurant_base][download][type] = git
-  projects[restaurant_base][download][revision] = 7d0e0ed
-  projects[restaurant_base][download][branch] = 7.x-1.x
-  projects[restaurant_base][subdir] = contrib/restaurant
-  
-  projects[restaurant_theme][type] = module
-  projects[restaurant_theme][download][type] = git
-  projects[restaurant_theme][download][revision] = a80d5c0
-  projects[restaurant_theme][download][branch] = 7.x-1.x
-  projects[restaurant_theme][subdir] = contrib/restaurant
-  
-  projects[restaurant_admin][type] = module
-  projects[restaurant_admin][download][type] = git
-  projects[restaurant_admin][download][revision] = 4aa2564
-  projects[restaurant_admin][download][branch] = 7.x-1.x
-  projects[restaurant_admin][subdir] = contrib/restaurant
-  
-  projects[restaurant_plugins][type] = module
-  projects[restaurant_plugins][download][type] = git
-  projects[restaurant_plugins][download][revision] = ebc5ca2
-  projects[restaurant_plugins][download][branch] = 7.x-1.x
-  projects[restaurant_plugins][subdir] = contrib/restaurant
+;  projects[restaurant_base][type] = module
+;  projects[restaurant_base][download][type] = git
+;  projects[restaurant_base][download][revision] = 7d0e0ed
+;  projects[restaurant_base][download][branch] = 7.x-1.x
+;  projects[restaurant_base][subdir] = contrib/restaurant
+;  
+;  projects[restaurant_theme][type] = module
+;  projects[restaurant_theme][download][type] = git
+;  projects[restaurant_theme][download][revision] = a80d5c0
+;  projects[restaurant_theme][download][branch] = 7.x-1.x
+;  projects[restaurant_theme][subdir] = contrib/restaurant
+;  
+;  projects[restaurant_admin][type] = module
+;  projects[restaurant_admin][download][type] = git
+;  projects[restaurant_admin][download][revision] = 4aa2564
+;  projects[restaurant_admin][download][branch] = 7.x-1.x
+;  projects[restaurant_admin][subdir] = contrib/restaurant
+;  
+;  projects[restaurant_plugins][type] = module
+;  projects[restaurant_plugins][download][type] = git
+;  projects[restaurant_plugins][download][revision] = ebc5ca2
+;  projects[restaurant_plugins][download][branch] = 7.x-1.x
+;  projects[restaurant_plugins][subdir] = contrib/restaurant
   
   ; Restaurant Apps
   
-  projects[restaurant_menu][type] = module
-  projects[restaurant_menu][download][type] = git
-  projects[restaurant_menu][download][revision] = aa23364
-  projects[restaurant_menu][download][branch] = 7.x-1.x
-  projects[restaurant_menu][subdir] = contrib/restaurant
-  
-  projects[restaurant_blog][type] = module
-  projects[restaurant_blog][download][type] = git
-  projects[restaurant_blog][download][revision] = 73aecb6
-  projects[restaurant_blog][download][branch] = 7.x-1.x
-  projects[restaurant_blog][subdir] = contrib/restaurant
-  
-  projects[restaurant_slideshow][type] = module
-  projects[restaurant_slideshow][download][type] = git
-  projects[restaurant_slideshow][download][revision] = 13d73f7
-  projects[restaurant_slideshow][download][branch] = 7.x-1.x
-  projects[restaurant_slideshow][subdir] = contrib/restaurant
-  
-  projects[restaurant_pages][type] = module
-  projects[restaurant_pages][download][type] = git
-  projects[restaurant_pages][download][revision] = 4e22eba
-  projects[restaurant_pages][download][branch] = 7.x-1.x
-  projects[restaurant_pages][subdir] = contrib/restaurant
+;  projects[restaurant_menu][type] = module
+;  projects[restaurant_menu][download][type] = git
+;  projects[restaurant_menu][download][revision] = aa23364
+;  projects[restaurant_menu][download][branch] = 7.x-1.x
+;  projects[restaurant_menu][subdir] = contrib/restaurant
+;  
+;  projects[restaurant_blog][type] = module
+;  projects[restaurant_blog][download][type] = git
+;  projects[restaurant_blog][download][revision] = 73aecb6
+;  projects[restaurant_blog][download][branch] = 7.x-1.x
+;  projects[restaurant_blog][subdir] = contrib/restaurant
+;  
+;  projects[restaurant_slideshow][type] = module
+;  projects[restaurant_slideshow][download][type] = git
+;  projects[restaurant_slideshow][download][revision] = 13d73f7
+;  projects[restaurant_slideshow][download][branch] = 7.x-1.x
+;  projects[restaurant_slideshow][subdir] = contrib/restaurant
+;  
+;  projects[restaurant_pages][type] = module
+;  projects[restaurant_pages][download][type] = git
+;  projects[restaurant_pages][download][revision] = 4e22eba
+;  projects[restaurant_pages][download][branch] = 7.x-1.x
+;  projects[restaurant_pages][subdir] = contrib/restaurant
 
 
 
