@@ -1,8 +1,6 @@
 name = TCI Profile
 description = Development
-version = 2.0-dev
 core = 7.x  
-
 
 ; Panopoly Foundation
 dependencies[] = panopoly_core

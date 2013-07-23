@@ -2,10 +2,8 @@ libraries
 
 modules/*
 !modules/custom
-!modules/panopoly
 
 themes/*
 !themes/custom
-!themes/openasu_bootstrap_2
 
 .DS_Store  

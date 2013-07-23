@@ -9,6 +9,7 @@ core = 7.x
  projects[derivicon][subdir] = contrib
  projects[context][subdir] = contrib
  projects[nodehierarchy][subdir] = contrib
+ projects[devel_themer][subdir] = contrib
  
 
 ; The Panopoly Foundation
@@ -98,11 +99,11 @@ projects[libraries][subdir] = contrib
   
   projects[radix_core][type] = module
   projects[radix_core][download][type] = git
-  projects[radix_core][download][revision] = 5a63a93
-  projects[radix_core][download][branch] = 7.x-1.x
+;  projects[radix_core][download][revision] = 5a63a93
+;  projects[radix_core][download][branch] = 7.x-1.x
   projects[radix_core][subdir] = contrib
   
-  ; Restaurant
+ ; Restaurant
   
 ;  projects[restaurant_base][type] = module
 ;  projects[restaurant_base][download][type] = git
@@ -154,10 +155,10 @@ projects[libraries][subdir] = contrib
 ;  projects[restaurant_pages][download][branch] = 7.x-1.x
 ;  projects[restaurant_pages][subdir] = contrib/restaurant
 
+; Themes
 
-
-
-
+projects[omega][type] = theme
+projects[omega][subdir] = contrib
 
 
 
