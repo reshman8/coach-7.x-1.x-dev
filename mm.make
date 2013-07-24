@@ -65,36 +65,34 @@ projects[panopoly_search][download][type] = git
 projects[panopoly_search][download][revision] = 3900b8a
 projects[panopoly_search][download][branch] = 7.x-1.x
 
-; Bootstrap Framework
+; The Panopoly Kalatheme
 
 projects[kalatheme][version] = 1.0-rc4
 projects[kalatheme][type] = theme
+projects[kalatheme][subdir] = contrib
+projects[kalatheme][patch][1935440] = http://drupal.org/files/kalatheme-illegal-string-offset-1935440-4.patch
+
+; Bootstrap Framework
 
 libraries[bootstrap][download][type] = get
-libraries[bootstrap][download][url] = https://github.com/kalamuna/asu_bootlibrary/archive/v2.3.0.zip
+libraries[bootstrap][download][url] = http://twitter.github.com/bootstrap/assets/bootstrap.zip
 
 ; Need 2.1 for Kalatheme RC4 - take this out when we move to Panopoly RC4
 
-projects[libraries][version] = 2.1
-projects[libraries][subdir] = contrib
+; projects[libraries][version] = 2.1
+; projects[libraries][subdir] = contrib
 
-; Asu cas - omitted for not downloading correctly i.e. drush make gives an error
+; Panopoly Recommended
 
-;projects[asu_cas][version] = 1.x-dev
-;projects[asu_cas][subdir] = custom
-;projects[asu_cas][download][type] = git
-;projects[asu_cas][download][revision] = 70a7c50
-;projects[asu_cas][download][branch] = 7.x-1.x
-;projects[asu_cas][download][url] = https://github.com/kalamuna/asu_cas.git
+projects[devel][version] = 1.3
+projects[devel][subdir] = contrib
 
-; Asu cas - omitted for not downloading correctly i.e. drush make gives an error
-
-;projects[openasu_bootstrap][version] = 1.x-dev
-;projects[openasu_bootstrap][type] = theme
-;projects[openasu_bootstrap][download][type] = git
-;projects[openasu_bootstrap][download][revision] = 6aae928
-;projects[openasu_bootstrap][download][branch] = 7.x-1.x
-;projects[openasu_bootstrap][download][url] = https://github.com/kalamuna/openasu_bootstrap.git
+projects[uuid][version] = 1.x-dev
+projects[uuid][subdir] = contrib
+projects[uuid][download][type] = git
+projects[uuid][download][revision] = 4730c67
+projects[uuid][download][branch] = 7.x-1.x
+projects[uuid][patch][1605284] = http://drupal.org/files/1605284-define-types-for-tokens-6.patch
 
 ; Radix
   
@@ -104,59 +102,7 @@ projects[libraries][subdir] = contrib
   projects[radix_core][download][branch] = 7.x-1.x
   projects[radix_core][subdir] = contrib
   
- ; Restaurant
-  
-;  projects[restaurant_base][type] = module
-;  projects[restaurant_base][download][type] = git
-;  projects[restaurant_base][download][revision] = 7d0e0ed
-;  projects[restaurant_base][download][branch] = 7.x-1.x
-;  projects[restaurant_base][subdir] = contrib/restaurant
-;  
-;  projects[restaurant_theme][type] = module
-;  projects[restaurant_theme][download][type] = git
-;  projects[restaurant_theme][download][revision] = a80d5c0
-;  projects[restaurant_theme][download][branch] = 7.x-1.x
-;  projects[restaurant_theme][subdir] = contrib/restaurant
-;  
-;  projects[restaurant_admin][type] = module
-;  projects[restaurant_admin][download][type] = git
-;  projects[restaurant_admin][download][revision] = 4aa2564
-;  projects[restaurant_admin][download][branch] = 7.x-1.x
-;  projects[restaurant_admin][subdir] = contrib/restaurant
-;  
-;  projects[restaurant_plugins][type] = module
-;  projects[restaurant_plugins][download][type] = git
-;  projects[restaurant_plugins][download][revision] = ebc5ca2
-;  projects[restaurant_plugins][download][branch] = 7.x-1.x
-;  projects[restaurant_plugins][subdir] = contrib/restaurant
-  
-  ; Restaurant Apps
-  
-;  projects[restaurant_menu][type] = module
-;  projects[restaurant_menu][download][type] = git
-;  projects[restaurant_menu][download][revision] = aa23364
-;  projects[restaurant_menu][download][branch] = 7.x-1.x
-;  projects[restaurant_menu][subdir] = contrib/restaurant
-;  
-;  projects[restaurant_blog][type] = module
-;  projects[restaurant_blog][download][type] = git
-;  projects[restaurant_blog][download][revision] = 73aecb6
-;  projects[restaurant_blog][download][branch] = 7.x-1.x
-;  projects[restaurant_blog][subdir] = contrib/restaurant
-;  
-;  projects[restaurant_slideshow][type] = module
-;  projects[restaurant_slideshow][download][type] = git
-;  projects[restaurant_slideshow][download][revision] = 13d73f7
-;  projects[restaurant_slideshow][download][branch] = 7.x-1.x
-;  projects[restaurant_slideshow][subdir] = contrib/restaurant
-;  
-;  projects[restaurant_pages][type] = module
-;  projects[restaurant_pages][download][type] = git
-;  projects[restaurant_pages][download][revision] = 4e22eba
-;  projects[restaurant_pages][download][branch] = 7.x-1.x
-;  projects[restaurant_pages][subdir] = contrib/restaurant
-
-; Themes
+; Other themes
 
 projects[omega][type] = theme
 projects[omega][subdir] = contrib
