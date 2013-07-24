@@ -1,5 +1,5 @@
 api = 2 
-core = 7.x 
+core = 7.22 
  
  projects[admin_menu][subdir] = contrib
  projects[coffee][subdir] = contrib
