@@ -9,6 +9,7 @@ core = 7.x
  projects[derivicon][subdir] = contrib
  projects[context][subdir] = contrib
  projects[nodehierarchy][subdir] = contrib
+ projects[simplehtmldom][subdir] = contrib
  projects[devel_themer][subdir] = contrib
  
 
@@ -99,8 +100,8 @@ projects[libraries][subdir] = contrib
   
   projects[radix_core][type] = module
   projects[radix_core][download][type] = git
-;  projects[radix_core][download][revision] = 5a63a93
-;  projects[radix_core][download][branch] = 7.x-1.x
+  projects[radix_core][download][revision] = 5a63a93
+  projects[radix_core][download][branch] = 7.x-1.x
   projects[radix_core][subdir] = contrib
   
  ; Restaurant
@@ -159,7 +160,8 @@ projects[libraries][subdir] = contrib
 
 projects[omega][type] = theme
 projects[omega][subdir] = contrib
-
+projects[tweme][type] = theme
+projects[tweme][subdir] = contrib
 
 
 
