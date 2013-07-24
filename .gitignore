@@ -6,4 +6,6 @@ modules/*
 themes/*
 !themes/custom
 
-.DS_Store  
+# OS specific shit
+.DS_Store
+Thumbs.db

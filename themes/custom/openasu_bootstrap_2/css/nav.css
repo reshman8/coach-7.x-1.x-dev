@@ -86,3 +86,10 @@ a.menu:after,.dropdown-toggle:after {
 .dropdown-menu>.active>a, .dropdown-menu>.active>a:hover, .dropdown-menu>.active>a:focus {
   background: transparent;
 }
+
+/*TCI custom styling*/
+
+/*set bottom black bar z-index lower to reveal Themer Developer tool in the bottom corner*/
+div#panels-ipe-control-container {
+  z-index: 9999;
+}
