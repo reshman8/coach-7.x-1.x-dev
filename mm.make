@@ -70,7 +70,7 @@ projects[panopoly_search][download][branch] = 7.x-1.x
 projects[kalatheme][version] = 1.0-rc4
 projects[kalatheme][type] = theme
 projects[kalatheme][subdir] = contrib
-projects[kalatheme][patch][1935440] = http://drupal.org/files/kalatheme-illegal-string-offset-1935440-4.patch
+;projects[kalatheme][patch][1935440] = http://drupal.org/files/kalatheme-illegal-string-offset-1935440-4.patch
 
 ; Bootstrap Framework
 

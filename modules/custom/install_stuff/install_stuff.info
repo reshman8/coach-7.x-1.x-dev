@@ -1,8 +1,7 @@
-; investigate name and project, is it mm or install_stuff
-
 name = install stuff
 
 description = install different stuff
+
 core = 7.x
 
 project = install_stuff
@@ -24,6 +23,7 @@ dependencies[] = backup_migrate
 dependencies[] = derivicon 
 dependencies[] = context 
 dependencies[] = nodehierarchy
+dependencies[] = devel_themer
 
 
 ; features[features_api][] = api:1 
@@ -50,4 +50,4 @@ dependencies[] = nodehierarchy
 ; dependencies[] = date_popup_authored
 
 ; Panopoly Recommended - Other
-;dependencies[] = uuid
+dependencies[] = uuid
