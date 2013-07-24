@@ -70,7 +70,7 @@ projects[panopoly_search][download][branch] = 7.x-1.x
 projects[kalatheme][version] = 1.0-rc4
 projects[kalatheme][type] = theme
 projects[kalatheme][subdir] = contrib
-;projects[kalatheme][patch][1935440] = http://drupal.org/files/kalatheme-illegal-string-offset-1935440-4.patch
+projects[kalatheme][patch][1935440] = http://drupal.org/files/kalatheme-illegal-string-offset-1935440-4.patch
 
 ; Bootstrap Framework
 
@@ -96,18 +96,18 @@ projects[uuid][patch][1605284] = http://drupal.org/files/1605284-define-types-fo
 
 ; Radix
   
-  projects[radix_core][type] = module
-  projects[radix_core][download][type] = git
-  projects[radix_core][download][revision] = 5a63a93
-  projects[radix_core][download][branch] = 7.x-1.x
-  projects[radix_core][subdir] = contrib
+;  projects[radix_core][type] = module
+;  projects[radix_core][download][type] = git
+;  projects[radix_core][download][revision] = 5a63a93
+;  projects[radix_core][download][branch] = 7.x-1.x
+;  projects[radix_core][subdir] = contrib
   
 ; Other themes
 
-projects[omega][type] = theme
-projects[omega][subdir] = contrib
-projects[tweme][type] = theme
-projects[tweme][subdir] = contrib
+; projects[omega][type] = theme
+; projects[omega][subdir] = contrib
+; projects[tweme][type] = theme
+; projects[tweme][subdir] = contrib
 
 
 
