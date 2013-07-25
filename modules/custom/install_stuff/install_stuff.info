@@ -1,10 +1,9 @@
-name = install stuff
-
+name = TCI install stuff
 description = install different stuff
-
 core = 7.x
-
 project = install_stuff
+
+
 
 ; investigate
 dependencies[] = color
@@ -13,6 +12,7 @@ dependencies[] = features
 dependencies[] = menu
 dependencies[] = module_filter
 dependencies[] = views
+
 
 ; mm256 
 dependencies[] = admin_menu 
@@ -24,30 +24,31 @@ dependencies[] = derivicon
 dependencies[] = context 
 dependencies[] = nodehierarchy
 dependencies[] = devel_themer
+dependencies[] = contextual_links
 
 
-; features[features_api][] = api:1 
-; 
-; dependencies[] = image
-; dependencies[] = list
-; dependencies[] = number
-; dependencies[] = options
-; dependencies[] = path
-; dependencies[] = taxonomy
-; dependencies[] = search
-; dependencies[] = shortcut
-; dependencies[] = field
-; dependencies[] = field_ui
-; dependencies[] = file
-; dependencies[] = dblog
-; dependencies[] = update
-; 
-; ; Panopoly Recommended - Admin
-; dependencies[] = navbar
-; dependencies[] = backports
-; dependencies[] = simplified_menu_admin
-; dependencies[] = save_draft
-; dependencies[] = date_popup_authored
+features[features_api][] = api:1 
+
+dependencies[] = image
+dependencies[] = list
+dependencies[] = number
+dependencies[] = options
+dependencies[] = path
+dependencies[] = taxonomy
+dependencies[] = search
+dependencies[] = shortcut
+dependencies[] = field
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = dblog
+dependencies[] = update
+
+; Panopoly Recommended - Admin
+dependencies[] = navbar
+dependencies[] = backports
+dependencies[] = simplified_menu_admin
+dependencies[] = save_draft
+dependencies[] = date_popup_authored
 
 ; Panopoly Recommended - Other
 dependencies[] = uuid

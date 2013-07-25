@@ -29,6 +29,9 @@ function mm_install_tasks($install_state) {
 
 
 function mm_form_install_configure_form_alter(&$form, &$form_state, $form_id) {
+  // Hide some messages from various modules that are just too chatty.
+  drupal_get_messages('status');
+  drupal_get_messages('warning');
   //drupal_set_message($form_id);  // print form ID to messages
   //drupal_set_message(print_r($form, TRUE));  // print array to messages
   $form['site_information']['site_name']['#default_value'] = "The Coaching Institute";
