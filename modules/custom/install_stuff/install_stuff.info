@@ -10,11 +10,11 @@ dependencies[] = color
 dependencies[] = devel_generate
 dependencies[] = features
 dependencies[] = menu
-dependencies[] = module_filter
 dependencies[] = views
 
 
 ; mm256 
+dependencies[] = module_filter
 dependencies[] = admin_menu 
 dependencies[] = coffee 
 dependencies[] = devel 
@@ -24,10 +24,10 @@ dependencies[] = derivicon
 dependencies[] = context 
 dependencies[] = nodehierarchy
 dependencies[] = devel_themer
-dependencies[] = contextual_links
+dependencies[] = contextual
 
 
-features[features_api][] = api:1 
+; features[features_api][] = api:1 
 
 dependencies[] = image
 dependencies[] = list
@@ -44,11 +44,11 @@ dependencies[] = dblog
 dependencies[] = update
 
 ; Panopoly Recommended - Admin
-dependencies[] = navbar
-dependencies[] = backports
-dependencies[] = simplified_menu_admin
-dependencies[] = save_draft
-dependencies[] = date_popup_authored
+; dependencies[] = navbar
+; dependencies[] = backports
+; dependencies[] = simplified_menu_admin
+; dependencies[] = save_draft
+; dependencies[] = date_popup_authored
 
 ; Panopoly Recommended - Other
 dependencies[] = uuid
