@@ -8,9 +8,9 @@ core = 7.x
  projects[backup_migrate][subdir] = contrib
  projects[derivicon][subdir] = contrib
  projects[context][subdir] = contrib
- ; projects[nodehierarchy][subdir] = contrib
- ; projects[simplehtmldom][subdir] = contrib
- ; projects[devel_themer][subdir] = contrib
+ projects[nodehierarchy][subdir] = contrib
+ projects[simplehtmldom][subdir] = contrib
+ projects[devel_themer][subdir] = contrib
  
 
 ; The Panopoly Foundation

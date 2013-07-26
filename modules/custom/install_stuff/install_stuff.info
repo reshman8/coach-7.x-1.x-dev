@@ -22,8 +22,8 @@ dependencies[] = diff
 dependencies[] = backup_migrate 
 dependencies[] = derivicon 
 dependencies[] = context 
-; dependencies[] = nodehierarchy
-; dependencies[] = devel_themer
+dependencies[] = nodehierarchy
+dependencies[] = devel_themer
 dependencies[] = contextual
 
 
