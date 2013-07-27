@@ -19,5 +19,3 @@ dependencies[] = panopoly_wysiwyg
 
 
 ; dependencies[] = honeypot
-
-dependencies[] = install_stuff
