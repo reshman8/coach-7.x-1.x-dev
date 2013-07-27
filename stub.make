@@ -3,7 +3,7 @@ api = 2
 
 ;Core
 projects[drupal][type] = core
-projects[drupal][version] = 7.22
+projects[drupal][version] = 7.18
 
 ;Install profile
 projects[mm][type] = profile
