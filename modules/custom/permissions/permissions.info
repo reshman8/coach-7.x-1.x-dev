@@ -1,6 +1,6 @@
 name = permissions
 core = 7.x
-package = Features
+package = TCI
 php = 5.2.4
 version = 7.x-1.0
 project = permissions

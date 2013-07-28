@@ -14,7 +14,6 @@ core = 7.x
  
  ; testing modules
  projects[superfish][subdir] = contrib
-  projects[skinr][subdir] = contrib
   projects[menu_firstchild][subdir] = contrib
   projects[menu_editor][subdir] = contrib
   projects[nice_menus][subdir] = contrib

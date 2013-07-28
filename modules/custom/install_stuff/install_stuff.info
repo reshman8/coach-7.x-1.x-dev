@@ -2,7 +2,7 @@ name = TCI install stuff
 description = install different stuff
 core = 7.x
 project = install_stuff
-
+package = TCI
 
 
 ; investigate
