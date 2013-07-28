@@ -6,7 +6,7 @@ api = 2
 
 ; Core specific release
 projects[drupal][type] = core
-projects[drupal][version] = 7.18
+projects[drupal][version] = 7.22
 
 ; Core latest dev
 ;projects[drupal][type] = core
