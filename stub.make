@@ -2,11 +2,11 @@ core = 7.x
 api = 2 
 
 ; Core latest stable release
-projects[] = drupal
+;projects[] = drupal
 
 ; Core specific release
-;projects[drupal][type] = core
-;projects[drupal][version] = 7.18
+projects[drupal][type] = core
+projects[drupal][version] = 7.18
 
 ; Core latest dev
 ;projects[drupal][type] = core
