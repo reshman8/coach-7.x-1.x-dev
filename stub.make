@@ -2,8 +2,11 @@ core = 7.x
 api = 2 
 
 ;Core
-projects[drupal][type] = core
-projects[drupal][version] = 7.18
+;projects[drupal][type] = core
+;projects[drupal][version] = 7.18
+
+; Core latest
+projects[] = drupal
 
 ;Install profile
 projects[mm][type] = profile
