@@ -29,9 +29,9 @@ dependencies[] = devel_themer
 
 ; testing modules
 dependencies[] = superfish
-dependencies[] = skinr_panels
+;dependencies[] = skinr_panels
 ; skinr_context_ui adds context_ui
-dependencies[] = skinr_context_ui
+;dependencies[] = skinr_context_ui
 dependencies[] = menu_firstchild
 dependencies[] = menu_editor
 dependencies[] = nice_menus
