@@ -26,11 +26,17 @@ dependencies[] = nodehierarchy
 dependencies[] = devel_themer
 dependencies[] = contextual
 dependencies[] = devel_themer
-; superfish
-; skinr
-; skinr_ui
-; skinr_panels skinr_context_ui
-; menu_firstchild menu_firstchild menu_editor nice_menus dhtml_menu menu_position
+
+; testing modules
+dependencies[] = superfish
+dependencies[] = skinr_panels
+; skinr_context_ui adds context_ui
+dependencies[] = skinr_context_ui
+dependencies[] = menu_firstchild
+dependencies[] = menu_editor
+dependencies[] = nice_menus
+dependencies[] = dhtml_menu
+dependencies[] = menu_position
 
 features[features_api][] = api:1 
 

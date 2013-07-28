@@ -11,7 +11,15 @@ core = 7.x
  projects[nodehierarchy][subdir] = contrib
  projects[simplehtmldom][subdir] = contrib
  projects[devel_themer][subdir] = contrib
+ 
+ ; testing modules
  projects[superfish][subdir] = contrib
+  projects[skinr][subdir] = contrib
+  projects[menu_firstchild][subdir] = contrib
+  projects[menu_editor][subdir] = contrib
+  projects[nice_menus][subdir] = contrib
+  projects[dhtml_menu][subdir] = contrib
+  projects[menu_position][subdir] = contrib
  
 
 ; The Panopoly Foundation
