@@ -5,12 +5,12 @@ api = 2
 ;projects[] = drupal
 
 ; Core specific release
-projects[drupal][type] = core
-projects[drupal][version] = 7.22
+;projects[drupal][type] = core
+;projects[drupal][version] = 7.22
 
 ; Core latest dev
-;projects[drupal][type] = core
-;projects[drupal][version] = 7.x-dev
+projects[drupal][type] = core
+projects[drupal][version] = 7.x-dev
 
 ;Install profile
 projects[mm][type] = profile
