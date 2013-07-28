@@ -3,7 +3,6 @@ admin-7.x-2.0-beta3 downloaded.
 admin_menu-7.x-3.0-rc3 downloaded.
 admin_menu-7.x-3.0-rc4 downloaded.
 admin_views-7.x-1.1 downloaded. 
-Aphrodite@rl:~/Sites$ drush make https://raw.github.com/maustyle/coach-7.x-1.x-dev/dev1/stub.make coach-7.x-dev-dev1.87/
 apps patched with 1790902-check-last-modified-existing.patch.  Generated PATCHES.txt file for apps 
 apps-7.x-1.0-beta7 downloaded.
 backports-7.x-1.0-alpha1 downloaded.
