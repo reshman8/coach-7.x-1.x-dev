@@ -21,8 +21,8 @@ core = 7.x
   projects[menu_position][subdir] = contrib
   projects[menu_position][subdir] = contrib
 
-projects[menu_editor] [subdir] = contrib
-projects[jquerymenu] [subdir] = contrib
+projects[menu_editor][subdir] = contrib
+projects[jquerymenu][subdir] = contrib
 
 ; The Panopoly Foundation
 
