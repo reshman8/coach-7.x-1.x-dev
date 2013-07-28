@@ -29,16 +29,17 @@ dependencies[] = devel_themer
 
 ; testing modules
 dependencies[] = superfish
-;dependencies[] = skinr_panels
-; skinr_context_ui adds context_ui
-;dependencies[] = skinr_context_ui
 dependencies[] = menu_firstchild
 dependencies[] = menu_editor
 dependencies[] = nice_menus
 dependencies[] = dhtml_menu
 dependencies[] = menu_position
+dependencies[] = menu_editor
+dependencies[] = menu_editor_node_creation
+dependencies[] = menu_editor_path_autocomplete
+dependencies[] = jquerymenu
 
-features[features_api][] = api:1 
+;features[features_api][] = api:1 
 
 dependencies[] = image
 dependencies[] = list
