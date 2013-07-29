@@ -1,0 +1,8 @@
+filename = "coach-7.22-dev1.98.ld.localhost8082-2013-07-30T00-58-05"
+description = ""
+datestamp = "1375106286"
+generator = "Backup and Migrate (http://drupal.org/project/backup_migrate)"
+generatorversion = "7.x-2.x"
+sites[0][version] = "7.22"
+sites[0][name] = "The Coaching Institute"
+sites[0][url] = "http://coach-7.22-dev1.98.ld.localhost:8082/"
