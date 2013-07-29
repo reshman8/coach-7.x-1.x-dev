@@ -1,5 +1,5 @@
-name = TCI install stuff
-description = install different stuff
+name = TCI Install Modules
+description = install different modules
 core = 7.x
 project = install_stuff
 package = Features
@@ -32,12 +32,12 @@ dependencies[] = menu_firstchild
 dependencies[] = nice_menus
 dependencies[] = dhtml_menu
 dependencies[] = menu_position
-dependencies[] = menu_editor
-dependencies[] = menu_editor_node_creation
-dependencies[] = menu_editor_path_autocomplete
+;dependencies[] = menu_editor
+;dependencies[] = menu_editor_node_creation
+;dependencies[] = menu_editor_path_autocomplete
 dependencies[] = jquerymenu
 
-;features[features_api][] = api:1 
+features[features_api][] = api:1 
 
 dependencies[] = image
 dependencies[] = list
@@ -54,14 +54,14 @@ dependencies[] = dblog
 dependencies[] = update
 
 ; Panopoly Recommended - Admin
-; dependencies[] = navbar
-; dependencies[] = backports
-; dependencies[] = simplified_menu_admin
-; dependencies[] = save_draft
-; dependencies[] = date_popup_authored
+dependencies[] = navbar
+dependencies[] = backports
+dependencies[] = simplified_menu_admin
+dependencies[] = save_draft
+dependencies[] = date_popup_authored
 
 ; Panopoly Recommended - Other
 dependencies[] = uuid
 
 ; TCI theme
-theme = kanji
+;theme = kanji

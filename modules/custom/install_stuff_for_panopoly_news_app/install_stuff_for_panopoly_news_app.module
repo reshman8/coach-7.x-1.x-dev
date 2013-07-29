@@ -1,7 +1,0 @@
-<?php
-/**
- * @file
- * Code for the install stuff for Panopoly News App feature.
- */
-
-include_once 'install_stuff_for_panopoly_news_app.features.inc';
