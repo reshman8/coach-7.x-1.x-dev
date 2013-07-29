@@ -1,6 +1,6 @@
 name = install stuff for Panopoly News App
 core = 7.x
-package = TCI
+package = Features
 version = 7.x-1.0
 project = install_stuff_for_panopoly_news_app
 dependencies[] = ctools
