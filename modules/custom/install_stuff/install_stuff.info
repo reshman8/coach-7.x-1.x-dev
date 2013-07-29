@@ -45,23 +45,23 @@ dependencies[] = number
 dependencies[] = options
 dependencies[] = path
 dependencies[] = taxonomy
-dependencies[] = search
+;dependencies[] = search
 dependencies[] = shortcut
 dependencies[] = field
 dependencies[] = field_ui
 dependencies[] = file
-dependencies[] = dblog
+;dependencies[] = dblog
 dependencies[] = update
 
 ; Panopoly Recommended - Admin
-dependencies[] = navbar
+;dependencies[] = navbar
 dependencies[] = backports
 dependencies[] = simplified_menu_admin
 dependencies[] = save_draft
 dependencies[] = date_popup_authored
 
 ; Panopoly Recommended - Other
-dependencies[] = uuid
+; dependencies[] = uuid
 
 ; TCI theme
 ;theme = kanji
