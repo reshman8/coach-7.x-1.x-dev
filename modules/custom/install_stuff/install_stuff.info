@@ -25,12 +25,10 @@ dependencies[] = context
 dependencies[] = nodehierarchy
 dependencies[] = devel_themer
 dependencies[] = contextual
-dependencies[] = devel_themer
 
 ; testing modules
 dependencies[] = superfish
 dependencies[] = menu_firstchild
-dependencies[] = menu_editor
 dependencies[] = nice_menus
 dependencies[] = dhtml_menu
 dependencies[] = menu_position

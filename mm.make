@@ -19,10 +19,7 @@ core = 7.x
   projects[nice_menus][subdir] = contrib
   projects[dhtml_menu][subdir] = contrib
   projects[menu_position][subdir] = contrib
-  projects[menu_position][subdir] = contrib
-
-projects[menu_editor][subdir] = contrib
-projects[jquerymenu][subdir] = contrib
+  projects[jquerymenu][subdir] = contrib
 
 ; The Panopoly Foundation
 
