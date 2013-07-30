@@ -12,7 +12,12 @@ dependencies[] = features
 dependencies[] = menu
 dependencies[] = views
 
-
+;Stage only modules
+;dependencies[] = feeds_ui
+;dependencies[] = feeds_import
+;dependencies[] = feeds
+;dependencies[] = job_scheduler
+;
 ; mm256 
 dependencies[] = module_filter
 dependencies[] = admin_menu 
@@ -65,3 +70,17 @@ dependencies[] = date_popup_authored
 
 ; TCI theme
 ;theme = kanji
+
+; Panopoly Foundation
+dependencies[] = panopoly_core
+dependencies[] = panopoly_images
+dependencies[] = panopoly_theme
+dependencies[] = panopoly_magic
+dependencies[] = panopoly_widgets
+dependencies[] = panopoly_admin
+dependencies[] = panopoly_users
+
+; Panopoly Toolset
+dependencies[] = panopoly_pages
+;dependencies[] = panopoly_search
+dependencies[] = panopoly_wysiwyg
