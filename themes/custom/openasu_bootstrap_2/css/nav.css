@@ -92,6 +92,9 @@ a.menu:after,.dropdown-toggle:after {
 /*set bottom black bar z-index lower to reveal Themer Developer checkbox in the bottom left corner*/
 div#panels-ipe-control-container {
   z-index: 9999;
+}
+/*shrink the Theme Developer checkbox to minimal*/
+#themer-toggle {
   width: 1em;
   overflow: hidden;
   text-overflow: ellipsis;
