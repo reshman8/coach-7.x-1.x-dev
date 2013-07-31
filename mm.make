@@ -162,15 +162,15 @@ projects[kalatheme][subdir] = contrib
 
 ;Radix
 
-;projects[radix_core][type] = module
-;projects[radix_core][download][type] = git
-;projects[radix_core][download][revision] = 5a63a93
-;projects[radix_core][download][branch] = 7.x-1.x
-;projects[radix_core][subdir] = contrib
+projects[radix_core][type] = module
+projects[radix_core][download][type] = git
+projects[radix_core][download][revision] = 5a63a93
+projects[radix_core][download][branch] = 7.x-1.x
+projects[radix_core][subdir] = contrib
 
 ; Radix
-projects[radix_core][version] = 1.x-dev
-projects[radix_core][subdir] = contrib
+;projects[radix_core][version] = 1.x-dev
+;projects[radix_core][subdir] = contrib
 
 ;Other themes
 
