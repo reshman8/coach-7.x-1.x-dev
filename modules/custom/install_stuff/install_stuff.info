@@ -14,11 +14,11 @@ dependencies[] = features
 dependencies[] = menu
 dependencies[] = views
 
-;Stage only modules
-dependencies[] = feeds_ui
-dependencies[] = feeds_import
-dependencies[] = feeds
-dependencies[] = job_scheduler
+;remember to declare them in the make file when decided to add them.
+;dependencies[] = feeds_ui
+;dependencies[] = feeds_import
+;dependencies[] = feeds
+;dependencies[] = job_scheduler
 
 ; mm256 
 dependencies[] = module_filter
