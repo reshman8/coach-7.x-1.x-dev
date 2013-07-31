@@ -4,6 +4,8 @@ core = 7.x
 project = install_stuff
 package = Features
 
+; to make the OpenAsu theme display properly the menu
+dependencies[] = block
 
 ; investigate
 dependencies[] = color
@@ -13,11 +15,11 @@ dependencies[] = menu
 dependencies[] = views
 
 ;Stage only modules
-;dependencies[] = feeds_ui
-;dependencies[] = feeds_import
-;dependencies[] = feeds
-;dependencies[] = job_scheduler
-;
+dependencies[] = feeds_ui
+dependencies[] = feeds_import
+dependencies[] = feeds
+dependencies[] = job_scheduler
+
 ; mm256 
 dependencies[] = module_filter
 dependencies[] = admin_menu 
@@ -27,9 +29,12 @@ dependencies[] = diff
 dependencies[] = backup_migrate 
 dependencies[] = derivicon 
 dependencies[] = context 
+dependencies[] = contextual
+
+; devs can't access Drupal repository, moved source code on git.
 dependencies[] = nodehierarchy
 dependencies[] = devel_themer
-dependencies[] = contextual
+
 
 ; testing modules
 dependencies[] = superfish
@@ -37,9 +42,6 @@ dependencies[] = menu_firstchild
 dependencies[] = nice_menus
 dependencies[] = dhtml_menu
 dependencies[] = menu_position
-;dependencies[] = menu_editor
-;dependencies[] = menu_editor_node_creation
-;dependencies[] = menu_editor_path_autocomplete
 dependencies[] = jquerymenu
 
 features[features_api][] = api:1 

@@ -1,25 +1,39 @@
 api = 2 
 core = 7.x
- 
- projects[admin_menu][subdir] = contrib
- projects[coffee][subdir] = contrib
- projects[devel][subdir] = contrib
- projects[diff][subdir] = contrib
- projects[backup_migrate][subdir] = contrib
- projects[derivicon][subdir] = contrib
- projects[context][subdir] = contrib
- projects[nodehierarchy][subdir] = contrib
- projects[simplehtmldom][subdir] = contrib
- projects[devel_themer][subdir] = contrib
- 
- ; testing modules
- projects[superfish][subdir] = contrib
-  projects[menu_firstchild][subdir] = contrib
-  projects[menu_editor][subdir] = contrib
-  projects[nice_menus][subdir] = contrib
-  projects[dhtml_menu][subdir] = contrib
-  projects[menu_position][subdir] = contrib
-  projects[jquerymenu][subdir] = contrib
+
+projects[admin_menu][subdir] = contrib
+projects[coffee][subdir] = contrib
+projects[devel][subdir] = contrib
+projects[diff][subdir] = contrib
+projects[backup_migrate][subdir] = contrib
+projects[derivicon][subdir] = contrib
+projects[context][subdir] = contrib
+
+projects[simplehtmldom][subdir] = contrib
+
+
+; testing modules
+projects[superfish][subdir] = contrib
+projects[menu_firstchild][subdir] = contrib
+projects[menu_editor][subdir] = contrib
+projects[nice_menus][subdir] = contrib
+projects[dhtml_menu][subdir] = contrib
+projects[menu_position][subdir] = contrib
+projects[jquerymenu][subdir] = contrib
+
+;projects[devel_themer][type] = module
+;projects[devel_themer][subdir] = custom
+;projects[devel_themer][download][type] = git
+;projects[devel_themer][download][url] = git@git.coachu.net.au:devel_themer-6-x.git
+;projects[devel_themer][download][revision] = 17047463b4a6a94696d8f1501016d4f8cd08696c
+;
+;projects[nodehierarchy][type] = module
+;projects[nodehierarchy][subdir] = custom
+;projects[nodehierarchy][download][type] = git
+;projects[nodehierarchy][download][url] = git@git.coachu.net.au:nodehierarchy-6-x.git
+;projects[nodehierarchy][download][revision] = 17047463b4a6a94696d8f1501016d4f8cd08696c
+
+
 
 ; The Panopoly Foundation
 
