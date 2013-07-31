@@ -43,6 +43,7 @@ dependencies[] = nice_menus
 dependencies[] = dhtml_menu
 dependencies[] = menu_position
 dependencies[] = jquerymenu
+dependencies[] = strongarm
 
 features[features_api][] = api:1 
 

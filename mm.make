@@ -20,6 +20,7 @@ projects[nice_menus][subdir] = contrib
 projects[dhtml_menu][subdir] = contrib
 projects[menu_position][subdir] = contrib
 projects[jquerymenu][subdir] = contrib
+projects[strongarm][subdir] = contrib
 
 ;projects[devel_themer][type] = module
 ;projects[devel_themer][subdir] = custom
