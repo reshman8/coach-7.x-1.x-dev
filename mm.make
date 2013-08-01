@@ -140,13 +140,13 @@ projects[kalatheme][subdir] = contrib
 
 ; Bootstrap Framework
 
-;libraries[bootstrap][download][type] = get
-;libraries[bootstrap][download][url] = http://twitter.github.com/bootstrap/assets/bootstrap.zip
+libraries[bootstrap][download][type] = get
+libraries[bootstrap][download][url] = http://twitter.github.com/bootstrap/assets/bootstrap.zip
 
 ; Need 2.1 for Kalatheme RC4 - take this out when we move to Panopoly RC4
 
-;; projects[libraries][version] = 2.1
-; projects[libraries][subdir] = contrib
+;projects[libraries][version] = 2.1
+projects[libraries][subdir] = contrib
 
 ; Panopoly Recommended
 
