@@ -106,14 +106,7 @@ projects[panopoly_demo][subdir] = panopoly
 ;projects[panopoly_demo][download][revision] = a0ed0cf
 ;projects[panopoly_demo][download][branch] = 7.x-1.x
 
-; Bootstrap Framework
-
-;projects[kalatheme][version] = 1.x-dev
-projects[kalatheme][type] = theme
-projects[kalatheme][subdir] = contrib
-;projects[kalatheme][download][type] = git
-;projects[kalatheme][download][revision] = b983dd9
-;projects[kalatheme][download][branch] = 7.x-1.x
+; OpenASU Bootstrap Framework
 
 ;projects[openasu_bootstrap][version] = 1.x-dev
 projects[openasu_bootstrap][type] = theme
@@ -126,22 +119,25 @@ projects[openasu_bootstrap][download][url] = https://github.com/kalamuna/openasu
 libraries[bootstrap][download][type] = get
 libraries[bootstrap][download][url] = https://github.com/kalamuna/asu_bootlibrary/archive/v2.3.0.zip
 
-
-libraries[superfish][download][type] = get
-libraries[superfish][download][url] = https://github.com/mehrpadin/Superfish-for-Drupal/archive/1.x.zip
-
 ; The Panopoly Kalatheme
 
-;; projects[kalatheme][version] = 1.0-rc4
+;projects[kalatheme][version] = 1.x-dev
 projects[kalatheme][type] = theme
 projects[kalatheme][subdir] = contrib
-; patch not working
-; projects[kalatheme][patch][1935440] = http://drupal.org/files/kalatheme-illegal-string-offset-1935440-4.patch
+;projects[kalatheme][download][type] = git
+;projects[kalatheme][download][revision] = b983dd9
+;projects[kalatheme][download][branch] = 7.x-1.x
 
-; Bootstrap Framework
+;projects[kalatheme][version] = 1.0-rc4
+;projects[kalatheme][type] = theme
+;projects[kalatheme][subdir] = contrib
+;patch not working
+;projects[kalatheme][patch][1935440] = http://drupal.org/files/kalatheme-illegal-string-offset-1935440-4.patch
 
-libraries[bootstrap][download][type] = get
-libraries[bootstrap][download][url] = http://twitter.github.com/bootstrap/assets/bootstrap.zip
+; Twitter Bootstrap
+
+; libraries[bootstrap][download][type] = get
+; libraries[bootstrap][download][url] = http://twitter.github.com/bootstrap/assets/bootstrap.zip
 
 ; Need 2.1 for Kalatheme RC4 - take this out when we move to Panopoly RC4
 
@@ -185,4 +181,7 @@ projects[kanji][subdir] = contrib
 ;projects[sizzle][type] = theme
 ;projects[sizzle][subdir] = contrib
 
+; Other Libraries 
 
+libraries[superfish][download][type] = get
+libraries[superfish][download][url] = https://github.com/mehrpadin/Superfish-for-Drupal/archive/1.x.zip
