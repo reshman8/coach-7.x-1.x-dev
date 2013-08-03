@@ -4,6 +4,9 @@ base theme = kalatheme
 version = 1.x-dev
 core = 7.x
 
+; to make the OpenAsu theme display properly the menu
+dependencies[] = block
+
 regions[header] = Header
 regions[menu] = Menu
 regions[content] = Content

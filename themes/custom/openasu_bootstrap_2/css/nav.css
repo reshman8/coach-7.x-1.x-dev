@@ -1,102 +1,94 @@
-/* pane styles for asu */
 .black-pane {
-  background-color: #000;
-  border-right: 5px solid #ffb310;
-  padding-top: 10px;
-  padding-bottom: 20px;
-  padding-left: 10px;
-  padding-right: 10px;
-  color: #fff;
+    padding: 10px 10px 20px;
+    border-right: 5px solid #ffb310;
+    color: #fff;
+    background-color: #000;
 }
 
 .black-pane h2 {
-  color: #ffb310;
+    color: #ffb310;
 }
 
 #main-wrapper .black-pane a {
-  color: #999;
-  font-weight: normal;
+    font-weight: 400;
+    color: #999;
 }
 
 #main-wrapper .menu-block-wrapper .panel-pane.black-pane ul a {
-  color: #fff;
-  font-weight: normal;
+    font-weight: 400;
+    color: #fff;
 }
 
 .yellow-pane {
-  background-color: #ffb310;
-  border-right: 5px solid #999;
-  padding-top: 10px;
-  padding-bottom: 20px;
-  padding-left: 10px;
-  padding-right: 10px;
-  color: #fff;
+    padding: 10px 10px 20px;
+    border-right: 5px solid #999;
+    color: #fff;
+    background-color: #ffb310;
 }
 
 .yellow-pane h2 {
-  color: #333;
+    color: #333;
 }
 
 #main-wrapper .yellow-pane a {
-  color: #999;
-  font-weight: normal;
+    font-weight: 400;
+    color: #999;
 }
 
 #main-wrapper .menu-block-wrapper .panel-pane.yellow-pane ul a {
-  color: #fff;
-  font-weight: normal;
+    font-weight: 400;
+    color: #fff;
 }
 
 .grey-pane {
-  background-color: #4F5557;
-  border-right: 5px solid #ffb310;
-  padding-top: 10px;
-  padding-bottom: 20px;
-  padding-left: 10px;
-  padding-right: 10px;
-  color: #fff
+    padding: 10px 10px 20px;
+    border-right: 5px solid #ffb310;
+    color: #fff;
+    background-color: #4F5557;
 }
 
 .grey-pane h2 {
-  color: #ffb310;
+    color: #ffb310;
 }
 
 #main-wrapper .grey-pane a {
-  color: #999;
-  font-weight: normal;
+    font-weight: 400;
+    color: #999;
 }
 
 #main-wrapper .menu-block-wrapper .panel-pane.grey-pane ul a {
-  color: #fff;
-  font-weight: normal;
+    font-weight: 400;
+    color: #fff;
 }
 
 ul.nav li.dropdown:hover>ul.dropdown-menu {
-  display: block;
+    display: block;
 }
 
-a.menu:after,.dropdown-toggle:after {
-  content: none;
+a.menu:after,
+.dropdown-toggle:after {
+    content: none;
 }
 
 .navbar .dropdown-menu {
- margin-top: 0px;
+    margin-top: 0;
 }
 
-.dropdown-menu>.active>a, .dropdown-menu>.active>a:hover, .dropdown-menu>.active>a:focus {
-  background: transparent;
+.dropdown-menu>.active>a,
+.dropdown-menu>.active>a:hover,
+.dropdown-menu>.active>a:focus {
+    background: transparent;
 }
 
-/*TCI custom styling*/
-
-/*set bottom black bar z-index lower to reveal Themer Developer checkbox in the bottom left corner*/
 div#panels-ipe-control-container {
-  z-index: 9999;
+    z-index: 9999;
 }
-/*shrink the Theme Developer checkbox to minimal*/
+
 #themer-toggle {
-  width: 1em;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  height: 3em;
+    width: 1em;
+    height: 3em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    -ms-text-overflow: ellipsis;
 }
