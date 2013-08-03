@@ -1,94 +1,94 @@
 .black-pane {
-    padding: 10px 10px 20px;
-    border-right: 5px solid #ffb310;
-    color: #fff;
-    background-color: #000;
+  padding :10px 10px 20px;
+  border-right :5px solid #ffb310;
+  color :#fff;
+  background-color :#000;
 }
 
 .black-pane h2 {
-    color: #ffb310;
+  color :#ffb310;
 }
 
 #main-wrapper .black-pane a {
-    font-weight: 400;
-    color: #999;
+  font-weight :400;
+  color :#999;
 }
 
 #main-wrapper .menu-block-wrapper .panel-pane.black-pane ul a {
-    font-weight: 400;
-    color: #fff;
+  font-weight :400;
+  color :#fff;
 }
 
 .yellow-pane {
-    padding: 10px 10px 20px;
-    border-right: 5px solid #999;
-    color: #fff;
-    background-color: #ffb310;
+  padding :10px 10px 20px;
+  border-right :5px solid #999;
+  color :#fff;
+  background-color :#ffb310;
 }
 
 .yellow-pane h2 {
-    color: #333;
+  color :#333;
 }
 
 #main-wrapper .yellow-pane a {
-    font-weight: 400;
-    color: #999;
+  font-weight :400;
+  color :#999;
 }
 
 #main-wrapper .menu-block-wrapper .panel-pane.yellow-pane ul a {
-    font-weight: 400;
-    color: #fff;
+  font-weight :400;
+  color :#fff;
 }
 
 .grey-pane {
-    padding: 10px 10px 20px;
-    border-right: 5px solid #ffb310;
-    color: #fff;
-    background-color: #4F5557;
+  padding :10px 10px 20px;
+  border-right :5px solid #ffb310;
+  color :#fff;
+  background-color :#4F5557;
 }
 
 .grey-pane h2 {
-    color: #ffb310;
+  color :#ffb310;
 }
 
 #main-wrapper .grey-pane a {
-    font-weight: 400;
-    color: #999;
+  font-weight :400;
+  color :#999;
 }
 
 #main-wrapper .menu-block-wrapper .panel-pane.grey-pane ul a {
-    font-weight: 400;
-    color: #fff;
+  font-weight :400;
+  color :#fff;
 }
 
 ul.nav li.dropdown:hover>ul.dropdown-menu {
-    display: block;
+  display :block;
 }
 
 a.menu:after,
 .dropdown-toggle:after {
-    content: none;
+  content :none;
 }
 
 .navbar .dropdown-menu {
-    margin-top: 0;
+  margin-top :0;
 }
 
 .dropdown-menu>.active>a,
 .dropdown-menu>.active>a:hover,
 .dropdown-menu>.active>a:focus {
-    background: transparent;
+  background :transparent;
 }
 
 div#panels-ipe-control-container {
-    z-index: 9999;
+  z-index :9999;
 }
 
 #themer-toggle {
-    width: 1em;
-    height: 3em;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    -o-text-overflow: ellipsis;
-    -ms-text-overflow: ellipsis;
+  width :1em;
+  height :3em;
+  overflow :hidden;
+  text-overflow :ellipsis;
+  -o-text-overflow :ellipsis;
+  -ms-text-overflow :ellipsis;
 }
