@@ -1,5 +1,8 @@
 libraries
 
+# backup and migrrate files
+bam/*
+
 modules/*
 !modules/custom
 
