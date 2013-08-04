@@ -12,7 +12,7 @@ regions[menu] = Menu
 regions[content] = Content
 regions[footer] = Footer
 
-stylesheets[screen][] = css/asu.css
+stylesheets[screen][] = css/tci.css
 stylesheets[screen][] = css/nav.css
 
 features[] = logo
