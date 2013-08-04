@@ -41,6 +41,7 @@ dependencies[] = dhtml_menu
 dependencies[] = menu_position
 dependencies[] = jquerymenu
 dependencies[] = strongarm
+dependencies[] = node_convert
 
 features[features_api][] = api:1 
 
@@ -59,7 +60,6 @@ dependencies[] = file
 dependencies[] = update
 
 ; Panopoly Recommended - Admin
-;dependencies[] = navbar
 dependencies[] = backports
 dependencies[] = simplified_menu_admin
 dependencies[] = save_draft
@@ -69,7 +69,7 @@ dependencies[] = date_popup_authored
 ; dependencies[] = uuid
 
 ; TCI theme
-;theme = kanji
+;theme = kanji add github repository
 
 ; Panopoly Foundation
 dependencies[] = panopoly_core
