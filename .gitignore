@@ -8,6 +8,8 @@ modules/*
 
 themes/*
 !themes/custom
+#nice menus module CSS enable from admin/appearance/settings
+!themes/css
 
 # OS specific shit
 .DS_Store
