@@ -36,15 +36,14 @@ dependencies[] = jquerymenu
 dependencies[] = strongarm
 dependencies[] = node_convert
 
-dependencies[] = panopoly_news
+; not needed dependencies[] = panopoly_news
 dependencies[] = wordpress_migrate
-
+dependencies[] = migrate
+dependencies[] = migrate_extras
 dependencies[] = globalredirect
 dependencies[] = htmLawed
 dependencies[] = jw_player
 dependencies[] = metatag
-dependencies[] = migrate
-dependencies[] = migrate_extras
 dependencies[] = page_title
 dependencies[] = redirect
 dependencies[] = search404
