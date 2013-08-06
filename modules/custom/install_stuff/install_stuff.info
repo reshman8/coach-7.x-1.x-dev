@@ -49,7 +49,7 @@ dependencies[] = page_title
 dependencies[] = redirect
 dependencies[] = search404
 dependencies[] = seo_checker
-dependencies[] = seo_checklist
+;dependencies[] = seo_checklist
 dependencies[] = site_verify
 dependencies[] = xmlsitemap
 
