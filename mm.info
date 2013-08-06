@@ -7,7 +7,7 @@ project = mm
 
 ; dependencies[] = honeypot
 
-dependencies[] = install_stuff
+; dependencies[] = install_stuff
 
 ; TCI theme
 ;theme = kanji
