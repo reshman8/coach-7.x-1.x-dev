@@ -51,6 +51,7 @@ projects[redirect][subdir] = contrib
 projects[search404][subdir] = contrib
 projects[seo_checker][subdir] = contrib
 projects[seo_checklist][subdir] = contrib
+projects[checklistapi][subdir] = contrib
 projects[site_verify][subdir] = contrib
 projects[xmlsitemap][subdir] = contrib
 
