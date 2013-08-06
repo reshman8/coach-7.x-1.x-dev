@@ -88,6 +88,8 @@ dependencies[] = panopoly_magic
 dependencies[] = panopoly_widgets
 dependencies[] = panopoly_admin
 dependencies[] = panopoly_users
+
+dependencies[] = panopoly_demo
 dependencies[] = panopoly_news
 dependencies[] = panopoly_faq
 

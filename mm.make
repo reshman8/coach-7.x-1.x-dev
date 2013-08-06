@@ -118,7 +118,7 @@ projects[panopoly_search][subdir] = panopoly
 ;projects[panopoly_search][download][branch] = 7.x-1.x
 
 ;projects[panopoly_demo][version] = 1.x-dev
-;projects[panopoly_demo][subdir] = panopoly
+projects[panopoly_demo][subdir] = panopoly
 ;projects[panopoly_demo][download][type] = git
 ;projects[panopoly_demo][download][revision] = a0ed0cf
 ;projects[panopoly_demo][download][branch] = 7.x-1.x
