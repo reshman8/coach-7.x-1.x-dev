@@ -11,12 +11,6 @@ dependencies[] = features
 dependencies[] = menu
 dependencies[] = views
 
-;remember to declare them in the make file when decided to add them.
-;dependencies[] = feeds_ui
-;dependencies[] = feeds_import
-;dependencies[] = feeds
-;dependencies[] = job_scheduler
-
 ; mm256 
 dependencies[] = module_filter
 dependencies[] = admin_menu 
@@ -36,11 +30,28 @@ dependencies[] = devel_themer
 dependencies[] = superfish
 dependencies[] = menu_firstchild
 dependencies[] = nice_menus
-;dependencies[] = dhtml_menu
-;dependencies[] = menu_position
+dependencies[] = dhtml_menu
+dependencies[] = menu_position
 dependencies[] = jquerymenu
 dependencies[] = strongarm
 dependencies[] = node_convert
+
+dependencies[] = panopoly_news
+dependencies[] = wordpress_migrate
+
+dependencies[] = globalredirect
+dependencies[] = htmLawed
+dependencies[] = jw_player
+dependencies[] = metatag
+dependencies[] = migrate
+dependencies[] = migrate_extras
+dependencies[] = page_title
+dependencies[] = redirect
+dependencies[] = search404
+dependencies[] = seo_checker
+dependencies[] = seo_checklist
+dependencies[] = site_verify
+dependencies[] = xmlsitemap
 
 features[features_api][] = api:1 
 

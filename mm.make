@@ -22,6 +22,7 @@ projects[jquerymenu][subdir] = contrib
 projects[strongarm][subdir] = contrib
 projects[node_convert][subdir] = contrib
 
+; note: add revision to these first fix url
 ;projects[devel_themer][type] = module
 ;projects[devel_themer][subdir] = custom
 ;projects[devel_themer][download][type] = git
@@ -34,7 +35,24 @@ projects[node_convert][subdir] = contrib
 ;projects[nodehierarchy][download][url] = git@git.coachu.net.au:nodehierarchy-6-x.git
 ;projects[nodehierarchy][download][revision] = 17047463b4a6a94696d8f1501016d4f8cd08696c
 
+; testing modules
+projects[panopoly_news][subdir] = contrib
+projects[wordpress_migrate][subdir] = contrib
 
+; testing modules
+projects[globalredirect][subdir] = contrib
+projects[htmLawed][subdir] = contrib
+projects[jw_player][subdir] = contrib
+projects[metatag][subdir] = contrib
+projects[migrate][subdir] = contrib
+projects[migrate_extras][subdir] = contrib
+projects[page_title][subdir] = contrib
+projects[redirect][subdir] = contrib
+projects[search404][subdir] = contrib
+projects[seo_checker][subdir] = contrib
+projects[seo_checklist][subdir] = contrib
+projects[site_verify][subdir] = contrib
+projects[xmlsitemap][subdir] = contrib
 
 ; The Panopoly Foundation
 
