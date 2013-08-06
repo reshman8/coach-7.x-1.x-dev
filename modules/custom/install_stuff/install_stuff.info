@@ -89,8 +89,10 @@ dependencies[] = panopoly_widgets
 dependencies[] = panopoly_admin
 dependencies[] = panopoly_users
 
-dependencies[] = panopoly_demo
+;dependencies[] = panopoly_demo
 dependencies[] = panopoly_news
+;dependencies[] = panopoly_faq
+;add also panopoly_faq_page and panopoly_faq_question
 
 ; Panopoly Toolset
 dependencies[] = panopoly_pages
