@@ -126,7 +126,7 @@ projects[panopoly_demo][subdir] = panopoly
 projects[panopoly_news][subdir] = panopoly
 
 projects[panopoly_faq][subdir] = panopoly
-projects[panopoly_faq][download][branch] = 7.x-1.x
+projects[panopoly_faq][download][branch] = 7.x-2.x-dev
 
 ; OpenASU Bootstrap Framework
 
