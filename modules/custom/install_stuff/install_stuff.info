@@ -36,7 +36,6 @@ dependencies[] = jquerymenu
 dependencies[] = strongarm
 dependencies[] = node_convert
 
-; not needed dependencies[] = panopoly_news
 dependencies[] = wordpress_migrate
 dependencies[] = migrate
 dependencies[] = migrate_extras
@@ -89,6 +88,8 @@ dependencies[] = panopoly_magic
 dependencies[] = panopoly_widgets
 dependencies[] = panopoly_admin
 dependencies[] = panopoly_users
+dependencies[] = panopoly_news
+dependencies[] = panopoly_faq
 
 ; Panopoly Toolset
 dependencies[] = panopoly_pages
