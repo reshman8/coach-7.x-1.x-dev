@@ -125,9 +125,6 @@ projects[panopoly_demo][subdir] = panopoly
 
 projects[panopoly_news][subdir] = panopoly
 
-projects[panopoly_faq][subdir] = panopoly
-projects[panopoly_faq][version] = 2.x-dev
-
 ; OpenASU Bootstrap Framework
 
 ;projects[openasu_bootstrap][version] = 1.x-dev
