@@ -12,15 +12,37 @@ projects[simplehtmldom][subdir] = contrib
 
 
 ; testing modules
-projects[superfish][subdir] = contrib
-projects[menu_firstchild][subdir] = contrib
-projects[menu_editor][subdir] = contrib
-projects[nice_menus][subdir] = contrib
+projects[checklistapi][subdir] = contrib
 projects[dhtml_menu][subdir] = contrib
-projects[menu_position][subdir] = contrib
+projects[feeds][subdir] = contrib
+projects[feeds_xpathparser][subdir] = contrib
+projects[globalredirect][subdir] = contrib
+projects[htmLawed][subdir] = contrib
+projects[job_scheduler][subdir] = contrib
 projects[jquerymenu][subdir] = contrib
-projects[strongarm][subdir] = contrib
+projects[jw_player][subdir] = contrib
+projects[menu_editor][subdir] = contrib
+projects[menu_firstchild][subdir] = contrib
+projects[menu_position][subdir] = contrib
+projects[metatag][subdir] = contrib
+projects[migrate][subdir] = contrib
+projects[migrate_extras][subdir] = contrib
+projects[nice_menus][subdir] = contrib
 projects[node_convert][subdir] = contrib
+projects[page_title][subdir] = contrib
+projects[redirect][patch][] = https://drupal.org/files/redirect-reenable_global_redirections-905914-121.patch
+projects[redirect][subdir] = contrib
+projects[redirect][version] = 7.x-1.x
+projects[search404][subdir] = contrib
+projects[seo_checker][subdir] = contrib
+projects[seo_checklist][subdir] = contrib
+projects[site_verify][subdir] = contrib
+projects[strongarm][subdir] = contrib
+projects[superfish][subdir] = contrib
+projects[wordpress_migrate][subdir] = contrib
+projects[xmlsitemap][subdir] = contrib
+
+
 
 ; note: add revision to these first fix url
 ;projects[devel_themer][type] = module
@@ -35,23 +57,6 @@ projects[node_convert][subdir] = contrib
 ;projects[nodehierarchy][download][url] = git@git.coachu.net.au:nodehierarchy-6-x.git
 ;projects[nodehierarchy][download][revision] = 17047463b4a6a94696d8f1501016d4f8cd08696c
 
-; testing modules
-
-projects[wordpress_migrate][subdir] = contrib
-projects[migrate][subdir] = contrib
-projects[migrate_extras][subdir] = contrib
-projects[globalredirect][subdir] = contrib
-projects[htmLawed][subdir] = contrib
-projects[jw_player][subdir] = contrib
-projects[metatag][subdir] = contrib
-projects[page_title][subdir] = contrib
-projects[redirect][subdir] = contrib
-projects[search404][subdir] = contrib
-projects[seo_checker][subdir] = contrib
-projects[seo_checklist][subdir] = contrib
-projects[checklistapi][subdir] = contrib
-projects[site_verify][subdir] = contrib
-projects[xmlsitemap][subdir] = contrib
 
 ; The Panopoly Foundation
 

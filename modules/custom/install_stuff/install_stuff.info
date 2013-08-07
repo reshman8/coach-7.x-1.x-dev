@@ -25,7 +25,6 @@ dependencies[] = contextual
 dependencies[] = nodehierarchy
 dependencies[] = devel_themer
 
-
 ; testing modules
 dependencies[] = superfish
 dependencies[] = menu_firstchild
@@ -51,6 +50,13 @@ dependencies[] = seo_checklist
 dependencies[] = checklistapi
 dependencies[] = site_verify
 dependencies[] = xmlsitemap
+
+dependencies[] = feeds_ui
+dependencies[] = feeds_import
+dependencies[] = feeds
+dependencies[] = job_scheduler
+dependencies[] = feeds_xpathparser
+dependencies[] = redirect
 
 features[features_api][] = api:1 
 
