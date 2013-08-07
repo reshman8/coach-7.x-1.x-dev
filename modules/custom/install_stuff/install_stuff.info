@@ -43,7 +43,6 @@ dependencies[] = htmLawed
 dependencies[] = jw_player
 dependencies[] = metatag
 dependencies[] = page_title
-dependencies[] = redirect
 dependencies[] = search404
 dependencies[] = seo_checker
 dependencies[] = seo_checklist
@@ -56,7 +55,7 @@ dependencies[] = feeds_import
 dependencies[] = feeds
 dependencies[] = job_scheduler
 dependencies[] = feeds_xpathparser
-;dependencies[] = redirect
+dependencies[] = redirect
 
 features[features_api][] = api:1 
 
