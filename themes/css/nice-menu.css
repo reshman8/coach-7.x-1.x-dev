@@ -226,3 +226,15 @@ ul.nice-menu li {
   top: 130px;
   background-color: gray;
 }
+
+/*Themer Developer admin button*/
+#themer-toggle {
+  width: 1em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: 3em;
+}
+/*Admin page customize bottom bar*/
+div#panels-ipe-control-container {
+  z-index: 9999;
+}
