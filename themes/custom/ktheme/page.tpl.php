@@ -1,3 +1,7 @@
+  <?php if($page['search_box']): ?>
+    <div id="searchBox"><?php print render($page['search_box']); ?></div>
+  <?php endif; ?>
+  
   <div id="header">
     <?php if($page['header_top']): ?>
       <div id="headerTop" class="blockregion">
@@ -6,11 +10,30 @@
     <?php endif; ?>
     
     <div id="headerWrapper">
-      <?php if (!empty($secondary_menu)): ?>
+      <?php // take out secondary menu (my account | login)
+      //if (!empty($secondary_menu)): ?>
         <div id="topMenu">
-          <?php print theme('links__system_secondary_menu', array('links' => $secondary_menu, 'attributes' => array('id' => 'secondary-menu', 'class' => array('links', 'inline', 'clearfix')))); ?>
+
+          <?php if ($page['main_menu']): 
+        //leaving this if for Future reference?>
+        <div id="primaryMenu">
+          <?php print render($page['main_menu']); ?>
         </div>
-      <?php endif; ?>
+        <?php elseif (!empty($primary_nav)): ?> 
+        <div id="primaryMenu">
+          <?php print $primary_nav; ?>
+        </div>
+        <?php endif; ?>
+
+        <?php if($page['preface_top']): ?>
+          <div id="preface_top" class="blockregion">
+            <?php print render($page['preface_top']); ?>
+          </div>
+        <?php endif; ?>
+
+          <?php //print theme('links__system_secondary_menu', array('links' => $secondary_menu, 'attributes' => array('id' => 'secondary-menu', 'class' => array('links', 'inline', 'clearfix')))); ?>
+        </div>
+      <?php //endif; ?>
       
       <div id="siteName">
         <?php if ($logo): print '<a href="' . $front_page . '" title="' . t('Home') . '"> <img src="' . check_url($logo) . '" alt="' . t('Home') . '" id="logo" /></a>'; endif; ?>
@@ -26,41 +49,24 @@
           <?php endif; ?>
         </div><!-- /siteInfo -->
       </div> <!-- /siteName-->
-      
-      <?php if($page['search_box']): ?>
-        <div id="searchBox"><?php print render($page['search_box']); ?></div>
-      <?php endif; ?>
-        
+
+
       <?php if($page['header']): ?>
         <div id="header-region" class="blockregion">
           <?php print render($page['header']); ?>
         </div>
       <?php endif; ?>
-        
+
     </div><!-- /headerWrapper -->
   </div><!-- /header -->
 
   <div id="container">
-    <div id="inner">  
+    <div id="inner">
       <div id="contentWrapper">
-        <?php if ($page['main_menu']): 
-        //leaving this if for Future reference?>
-        <div id="primaryMenu">
-          <?php print render($page['main_menu']); ?>
-        </div>
-        <?php elseif (!empty($primary_nav)): ?> 
-        <div id="primaryMenu">
-          <?php print $primary_nav; ?>
-        </div>
-        <?php endif; ?>
+
         <div id="menuLeft"></div>
         <div id="menuRight"></div>
-        <?php if($page['preface_top']): ?>
-          <div id="preface_top" class="blockregion">
-            <?php print render($page['preface_top']); ?>
-          </div>
-        <?php endif; ?>
-        
+
         <?php if($page['sidebar_first']): ?>
           <div id="sidebar_first" class="sidebar">
             <?php print render($page['sidebar_first']); ?>
