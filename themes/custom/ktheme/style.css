@@ -4,7 +4,7 @@ body {
   font-family: Arial, Verdana, Helvetica, sans-serif;
   font-size: 12px;
   margin: 0;
-  padding: 0;
+  padding: 0; background-repeat: no-repeat;
 }
 a.active {
   font-weight: bold;
@@ -13,7 +13,7 @@ a.active {
   color: #1A96D4;
 }
 a {
-  color: #333;
+  color: #F00;
 }
 a:hover, a:focus {
   text-decoration: none;
@@ -73,9 +73,10 @@ blockquote {
   width: 960px;
 }
 #header {
-  margin: 15px auto 0;
-  padding: 0;
-  width: 980px;
+  padding: 13px 0 0;
+  width: 100%;
+  box-shadow: inset 0px 43px 31px -46px black;
+  border-top: 10px solid black;
 }
 /* .region-search-box */
 #searchBox {
@@ -116,8 +117,11 @@ blockquote {
 }
 #siteName img#logo {
   float: left;
-  margin: 5px 15px 5px 0;
+  margin: 0;
   *padding-bottom: 10px;
+  position: relative;
+  top: -7px;
+  left: 4px;
 }
 #siteName h1 {
   clear: both;
@@ -164,18 +168,21 @@ blockquote {
 }
 #menuLeft {
   float: left;
-  height: 59px; 
-  margin: 0 0 0 -24px;  
+  height: 590px; 
+  margin: 0;  
   padding: 0;
-  width: 24px;
+  width: 100%;
+  position: relative;
+  left: -100%;
 }
 #menuRight {
   clear: right;
-  float: right;
-  height: 59px;
+  height: 590px;;
   margin: 0 -24px 0 0;
   padding: 0;
-  width: 24px;  
+  width: 100%;  
+  position: relative;
+  left: 1000px;
 }
 #primaryMenu ul.menu {
   background: #1A96D4;
@@ -309,7 +316,7 @@ blockquote {
 
 /* SECONDARY MENU */
 #topMenu {
-  margin: 5px 0;
+  margin: 0;
   padding: 0;
   text-align:right;
 }
@@ -402,26 +409,34 @@ blockquote {
 #container {
   margin: 0 auto;
   padding: 0;
-  width: 960px;
+  width: 1000px;
+  /* width: 100%; */
 }
 #inner {
   float: left;
   margin: 0 0 5px;
   padding: 0;
+  background-color: rgba(0, 0, 0, 0.23);
 }
 #headerWrapper {
   color: #333333;
   float: left;
+  float: inherit;
   margin: 0 auto;
-  min-height: 130px;
-  padding: 0 15px;
+  min-height: 177px;
+  padding: 0;
   width: 950px;
+  width: 100%;
 }
 #content_top {
   clear: both;
   margin: 0;
   padding: 0;
   width: 100%;
+  height: 200px;
+  background-color: yellowgreen;
+  position: relative;
+  top: -200px;
 }
 #preface_top {
   clear: both;
@@ -438,11 +453,13 @@ blockquote {
   width: 960px;
 }
 #contentWrapper {
-  background: #fff;
-  border-bottom:5px solid #1A96D4;
+  background: #D6D6D6;
+  background: none;
+  border-top: 17px solid #1A96D4;
   float: left;
   margin: 0;
-  padding: 0 9px 9px;
+  padding: 0;
+  width: 1000px;
 }
 #content .picture {
   float: right;
@@ -464,7 +481,7 @@ blockquote {
   width: 482px;
 }
 .no-sidebars #center {
-  width: 922px;
+  width: 1000px;
 }
 #content {
   clear: both;
@@ -715,7 +732,7 @@ ul.pager li a:focus {
 .blockregion .block .content {
   background: #F0F0F0;
   margin: 0 0 10px;
-  min-height: 170px;
+  min-height: 235px;
   min-width: 200px;
   padding: 5px;
 }
@@ -835,16 +852,19 @@ a.feed-icon img {
 /* ---------- Styles for responsive layout ----------- */
 
 body {
-  background-attachment: fixed;    
+  background-attachment: initial;    
+  background-position: 50% 532px; background-repeat: no-repeat;
 }
 #menuLeft {
-  background: url("images/block-bg.png") bottom left no-repeat;
+  background: url("images/block-bg.png") bottom left no-repeat blue;
 }
 #menuRight {
-  background: url("images/right-block-bg.png") bottom right no-repeat;
+  background: url("images/right-block-bg.png") bottom right blueviolet no-repeat;
 }
 #headerWrapper {
-  background: url("images/fader.png") transparent left top no-repeat;
+  /* background: url("images/fader.png") transparent left top no-repeat; */
+  /* background: url("images/bg.jpg") transparent left top repeat; */
+  width: 1000px;
 }
 #sidebar_first h2 {
   background: url("images/block-bg.png") bottom left no-repeat;
