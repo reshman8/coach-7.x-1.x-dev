@@ -43,20 +43,18 @@
   <div id="container">
     <div id="inner">  
       <div id="contentWrapper">
-        <?php if ($page['main_menu']): ?>
-          <div id="menuLeft"></div>
-          <div id="primaryMenu">
-            <?php print render($page['main_menu']); ?>
-          </div>
-          <div id="menuRight"></div>
+        <?php if ($page['main_menu']): 
+        //leaving this if for Future reference?>
+        <div id="primaryMenu">
+          <?php print render($page['main_menu']); ?>
+        </div>
         <?php elseif (!empty($primary_nav)): ?> 
-          <div id="menuLeft"></div>
-          <div id="primaryMenu">
-            <?php print $primary_nav; ?>
-          </div>
-          <div id="menuRight"></div>
+        <div id="primaryMenu">
+          <?php print $primary_nav; ?>
+        </div>
         <?php endif; ?>
-        
+        <div id="menuLeft"></div>
+        <div id="menuRight"></div>
         <?php if($page['preface_top']): ?>
           <div id="preface_top" class="blockregion">
             <?php print render($page['preface_top']); ?>
