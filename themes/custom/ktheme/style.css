@@ -123,18 +123,18 @@ blockquote {
 /* .region-search-box */
 
 #searchBox {
-  float :right;
   margin :0;
   padding :0;
+  position: absolute;
+  top: 58px;
+  width: 1000px;
 }
 
 .region-search-box {
-  position :relative;
-  top :41px;
-  right :106px;
   margin :0;
   padding :0;
   background :#333;
+  float: right;
 }
 
 #searchBox .form-submit {

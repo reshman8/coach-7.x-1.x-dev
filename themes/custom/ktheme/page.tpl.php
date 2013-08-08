@@ -1,7 +1,3 @@
-  <?php if($page['search_box']): ?>
-    <div id="searchBox"><?php print render($page['search_box']); ?></div>
-  <?php endif; ?>
-  
   <div id="header">
     <?php if($page['header_top']): ?>
       <div id="headerTop" class="blockregion">
@@ -61,6 +57,9 @@
   </div><!-- /header -->
 
   <div id="container">
+    <?php if($page['search_box']): ?>
+      <div id="searchBox"><?php print render($page['search_box']); ?></div>
+    <?php endif; ?>
     <div id="inner">
       <div id="contentWrapper">
 
