@@ -17,7 +17,6 @@ ul.nice-menu,
 ul.nice-menu ul {
   margin :0;
   padding :0;
-  /*border-top :1px solid #ccc;*/
   list-style :none;
 }
 
@@ -226,23 +225,27 @@ ul.nice-menu li {
 }
 
 /*controls the secondary menus*/
-.region-content-top .nice-menu {
 
-  background-color: gray;
+.region-content-top .nice-menu {
+  background-color :gray;
 }
+
 .region.region-content-top {
-position: relative;
-top: 220px;
+  position :relative;
+  top :220px;
 }
 
 /*Themer Developer admin button*/
+
 #themer-toggle {
-  width: 1em;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  height: 3em;
+  width :1em;
+  height :3em;
+  overflow :hidden;
+  text-overflow :ellipsis;
 }
+
 /*Admin page customize bottom bar*/
+
 div#panels-ipe-control-container {
-  z-index: 9999;
+  z-index :9999;
 }
