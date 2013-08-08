@@ -17,7 +17,7 @@ ul.nice-menu,
 ul.nice-menu ul {
   margin :0;
   padding :0;
-  border-top :1px solid #ccc;
+  /*border-top :1px solid #ccc;*/
   list-style :none;
 }
 
@@ -32,6 +32,11 @@ ul.nice-menu a {
   padding :0.3em 5px 0.3em 5px;
   color :white;
   background-color :black;
+}
+
+ul.nice-menu a:hover {
+  color :black;
+  background-color :white;
 }
 
 ul.nice-menu ul {
@@ -222,9 +227,12 @@ ul.nice-menu li {
 
 /*controls the secondary menus*/
 .region-content-top .nice-menu {
-  position: relative;
-  top: 130px;
+
   background-color: gray;
+}
+.region.region-content-top {
+position: relative;
+top: 220px;
 }
 
 /*Themer Developer admin button*/
