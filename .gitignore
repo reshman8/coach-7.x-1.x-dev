@@ -1,4 +1,4 @@
-libraries
+libraries/*
 
 # backup and migrrate files
 bam/*
@@ -14,3 +14,5 @@ themes/*
 # OS specific shit
 .DS_Store
 Thumbs.db
+
+# add sql files and other types that are obsolete, Github has selected list, look for the Drupal one.

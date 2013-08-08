@@ -205,19 +205,19 @@ ul.nice-menu li {
 }
 
 #header-region ul.nice-menu-down li.menuparent {
-  /*background :#eee url("../custom/ktheme/images/arrow-down.png") right center no-repeat;*/
+  background :#eee url("../custom/ktheme/images/arrow-down.png") right center no-repeat;
 }
 
 #header-region ul.nice-menu-down li.menuparent:hover {
-  /*background :#ccc url("../custom/ktheme/images/arrow-down.png") right center no-repeat;*/
+  background :#ccc url("../custom/ktheme/images/arrow-down.png") right center no-repeat;
 }
 
 #header-region ul.nice-menu-down li li.menuparent {
-  /*background :#eee url("../custom/ktheme/images/arrow-right.png") right center no-repeat;*/
+  background :#eee url("../custom/ktheme/images/arrow-right.png") right center no-repeat;
 }
 
 #header-region ul.nice-menu-down li li.menuparent:hover {
-  /*background :#ccc url("../custom/ktheme/images/arrow-right.png") right center no-repeat;*/
+  background :#ccc url("../custom/ktheme/images/arrow-right.png") right center no-repeat;
 }
 
 /*controls the secondary menus*/

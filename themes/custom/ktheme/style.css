@@ -54,7 +54,7 @@ input, fieldset, textarea {
 }
 .item-list ul li, li.leaf, ul.menu li, li  {
   list-style-image: none;
-  list-style: disc;
+  list-style: none;
 }
 .clearfix {
   /*clear: both;*/
@@ -455,7 +455,6 @@ blockquote {
 #contentWrapper {
   background: #D6D6D6;
   background: none;
-  border-top: 17px solid #1A96D4;
   float: left;
   margin: 0;
   padding: 0;
