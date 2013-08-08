@@ -57,9 +57,7 @@
   </div><!-- /header -->
 
   <div id="container">
-    <?php if($page['search_box']): ?>
-      <div id="searchBox"><?php print render($page['search_box']); ?></div>
-    <?php endif; ?>
+
     <div id="inner">
       <div id="contentWrapper">
 
@@ -132,6 +130,10 @@
         <?php endif; ?> 
       </div><!-- /contentWrapper -->
       
+      <?php if($page['search_box']): ?>
+        <div id="searchBox"><?php print render($page['search_box']); ?></div>
+      <?php endif; ?>
+
     </div><!-- /Inner -->
     
   </div><!-- /container -->
