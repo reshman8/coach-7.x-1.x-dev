@@ -152,13 +152,13 @@ projects[panopoly_faq][version] = 2.x-dev
 
 ; OpenASU Bootstrap Framework
 
-projects[openasu_bootstrap][version] = 1.x-dev
+;projects[openasu_bootstrap][version] = 1.x-dev
 projects[openasu_bootstrap][type] = theme
 projects[openasu_bootstrap][subdir] = contrib
-;projects[openasu_bootstrap][download][type] = git
-;projects[openasu_bootstrap][download][revision] = 8c367c6
-;projects[openasu_bootstrap][download][branch] = 7.x-1.x
-;projects[openasu_bootstrap][download][url] = https://github.com/kalamuna/openasu_bootstrap.git
+projects[openasu_bootstrap][download][type] = git
+projects[openasu_bootstrap][download][revision] = 8c367c6
+projects[openasu_bootstrap][download][branch] = 7.x-1.x
+projects[openasu_bootstrap][download][url] = https://github.com/kalamuna/openasu_bootstrap.git
 
 libraries[bootstrap][download][type] = get
 libraries[bootstrap][download][url] = https://github.com/kalamuna/asu_bootlibrary/archive/v2.3.0.zip
@@ -222,6 +222,7 @@ projects[libraries][subdir] = contrib
 
 projects[kanji][type] = theme
 projects[kanji][subdir] = contrib
+projects[kanji][version] = 3.5
 ;projects[sizzle][type] = theme
 ;projects[sizzle][subdir] = contrib
 
