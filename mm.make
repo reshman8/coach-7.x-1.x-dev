@@ -43,27 +43,22 @@ projects[wordpress_migrate][subdir] = contrib
 projects[xmlsitemap][subdir] = contrib
 
 projects[fape][subdir] = contrib
-projects[fape][download][type] = git
-projects[fape][download][revision] = 1143ee2
+projects[fape][version] = 1.1
 
 projects[fieldable_panels_panes][subdir] = contrib
-projects[fieldable_panels_panes][download][type] = git
-projects[fieldable_panels_panes][download][revision] = 1bda8c9
+projects[fieldable_panels_panes][version] = 1.4
 
 projects[panels][subdir] = contrib
-projects[panels][download][type] = git
-projects[panels][download][revision] = a915408
+projects[panels][version] = 3.3
 
 projects[navbar][subdir] = contrib
 projects[navbar][version] = 1.0-alpha10
 
 projects[file_entity][subdir] = contrib
-projects[file_entity][download][type] = git
-projects[file_entity][download][revision] = ecb9392
+projects[file_entity][version] = 2.x-dev
 
 projects[media][subdir] = contrib
 projects[media][version] = 1.3
-
 
 ; note: add revision to these first fix url
 ;projects[devel_themer][type] = module
