@@ -232,7 +232,9 @@ ul.nice-menu li {
 
 .region.region-content-top {
   position :relative;
-  top :220px;
+  top: 10px;
+  background-color: green;
+  width: 100%;
 }
 
 /*Themer Developer admin button*/

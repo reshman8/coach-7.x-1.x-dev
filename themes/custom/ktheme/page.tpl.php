@@ -55,7 +55,11 @@
 
     </div><!-- /headerWrapper -->
   </div><!-- /header -->
-
+  <?php if($page['content_top']): ?>
+    <div id="content_top" class="blockregion">
+      <?php print render($page['content_top']); ?>
+    </div>
+  <?php endif; ?>
   <div id="container">
 
     <div id="inner">
@@ -82,12 +86,6 @@
           <?php if (!empty($page['highlighted'])): ?>
             <div id="mission">
               <?php print render($page['highlighted']); ?>
-            </div>
-          <?php endif; ?>
-        
-          <?php if($page['content_top']): ?>
-            <div id="content_top" class="blockregion">
-              <?php print render($page['content_top']); ?>
             </div>
           <?php endif; ?>
         
