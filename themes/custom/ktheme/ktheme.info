@@ -1,6 +1,8 @@
 name = Ktheme
 description = Theme with fixed size, multiple columns and regions, based on Kanji.
-core = 7.x
+version = "1.x-dev"
+core = "7.x"
+project = "kanji"
 base theme = kanji
 engine = phptemplate
 stylesheets[all][] = style.css
@@ -25,5 +27,3 @@ regions[footer_message] = Footer message
 regions[footer_bottom] = footer bottom
 
 settings[default_background] = 1
-
-
