@@ -5,3 +5,6 @@ project = mm
 
 ; TCI Install Modules
 dependencies[] = install_stuff
+
+; TCI Install Modules
+;dependencies[] = permissions
