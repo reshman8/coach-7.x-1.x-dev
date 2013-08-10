@@ -17,7 +17,6 @@ ul.nice-menu,
 ul.nice-menu ul {
   margin :0;
   padding :0;
-  border-top :1px solid #ccc;
   list-style :none;
 }
 
@@ -32,6 +31,11 @@ ul.nice-menu a {
   padding :0.3em 5px 0.3em 5px;
   color :white;
   background-color :black;
+}
+
+ul.nice-menu a:hover {
+  color :black;
+  background-color :white;
 }
 
 ul.nice-menu ul {
@@ -75,12 +79,12 @@ ul.nice-menu-right ul ul {
 
 ul.nice-menu-right li.menuparent,
 ul.nice-menu-right li li.menuparent {
-  background :#eee url("../images/arrow-right.png") right center no-repeat;
+  background :#eee url("../custom/ktheme/images/arrow-right.png") right center no-repeat;
 }
 
 ul.nice-menu-right li.menuparent:hover,
 ul.nice-menu-right li li.menuparent:hover {
-  background :#ccc url("../images/arrow-right.png") right center no-repeat;
+  background :#cc0000 url("../custom/ktheme/images/arrow-right.png") right center no-repeat;
 }
 
 /* VERTICAL menus where submenus pop LEFT. */
@@ -99,12 +103,12 @@ ul.nice-menu-left li ul li ul {
 
 ul.nice-menu-left li.menuparent,
 ul.nice-menu-left li li.menuparent {
-  background :#eee url("../images/arrow-left.png") left center no-repeat;
+  background :#eee url("../custom/ktheme/images/arrow-left.png") left center no-repeat;
 }
 
 ul.nice-menu-left li.menuparent:hover,
 ul.nice-menu-left li li.menuparent:hover {
-  background :#ccc url("../images/arrow-left.png") left center no-repeat;
+  background :#ccc url("../custom/ktheme/images/arrow-left.png") left center no-repeat;
 }
 
 ul.nice-menu-left a,
@@ -147,19 +151,19 @@ ul.nice-menu-down .menuparent a {
 }
 
 ul.nice-menu-down li.menuparent {
-  background :#eee url("../images/arrow-down.png") right center no-repeat;
+  background :#eee url("../custom/ktheme/images/arrow-down.png") right center no-repeat;
 }
 
 ul.nice-menu-down li.menuparent:hover {
-  background :#ccc url("../images/arrow-down.png") right center no-repeat;
+  background :#ccc url("../custom/ktheme/images/arrow-down.png") right center no-repeat;
 }
 
 ul.nice-menu-down li li.menuparent {
-  background :#eee url("../images/arrow-right.png") right center no-repeat;
+  background :#eee url("../custom/ktheme/images/arrow-right.png") right center no-repeat;
 }
 
 ul.nice-menu-down li li.menuparent:hover {
-  background :#ccc url("../images/arrow-right.png") right center no-repeat;
+  background :#ccc url("../custom/ktheme/images/arrow-right.png") right center no-repeat;
 }
 
 /******************************
@@ -205,24 +209,45 @@ ul.nice-menu li {
 }
 
 #header-region ul.nice-menu-down li.menuparent {
-  /*background :#eee url("../images/arrow-down.png") right center no-repeat;*/
+  background :#eee url("../custom/ktheme/images/arrow-down.png") right center no-repeat;
 }
 
 #header-region ul.nice-menu-down li.menuparent:hover {
-  /*background :#ccc url("../images/arrow-down.png") right center no-repeat;*/
+  background :#ccc url("../custom/ktheme/images/arrow-down.png") right center no-repeat;
 }
 
 #header-region ul.nice-menu-down li li.menuparent {
-  /*background :#eee url("../images/arrow-right.png") right center no-repeat;*/
+  background :#eee url("../custom/ktheme/images/arrow-right.png") right center no-repeat;
 }
 
 #header-region ul.nice-menu-down li li.menuparent:hover {
-  /*background :#ccc url("../images/arrow-right.png") right center no-repeat;*/
+  background :#ccc url("../custom/ktheme/images/arrow-right.png") right center no-repeat;
 }
 
 /*controls the secondary menus*/
+
 .region-content-top .nice-menu {
-  position: relative;
-  top: 130px;
-  background-color: gray;
+  background-color :gray;
+}
+
+.region.region-content-top {
+  position :relative;
+  top: 10px;
+  background-color: green;
+  width: 100%;
+}
+
+/*Themer Developer admin button*/
+
+#themer-toggle {
+  width :1em;
+  height :3em;
+  overflow :hidden;
+  text-overflow :ellipsis;
+}
+
+/*Admin page customize bottom bar*/
+
+div#panels-ipe-control-container {
+  z-index :9999;
 }

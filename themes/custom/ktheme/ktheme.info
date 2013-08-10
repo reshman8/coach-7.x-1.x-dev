@@ -1,0 +1,29 @@
+name = Ktheme
+description = Theme with fixed size, multiple columns and regions, based on Kanji.
+core = 7.x
+base theme = kanji
+engine = phptemplate
+stylesheets[all][] = style.css
+stylesheets[all][] = local.css
+stylesheets[print][] = print.css
+scripts[] = main.js
+
+regions[header_top] = header top
+regions[highlighted] = Highlighted
+regions[search_box] = Search box
+regions[main_menu] = Main menu
+regions[sidebar_first] = sidebar first
+regions[sidebar_second] = sidebar second
+
+regions[header] = header
+regions[preface_top] = preface top
+regions[content_top] = content top
+regions[content] = content
+regions[content_bottom] = content bottom
+regions[postscript_bottom] = postscript bottom
+regions[footer_message] = Footer message
+regions[footer_bottom] = footer bottom
+
+settings[default_background] = 1
+
+

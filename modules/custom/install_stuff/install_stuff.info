@@ -11,12 +11,6 @@ dependencies[] = features
 dependencies[] = menu
 dependencies[] = views
 
-;remember to declare them in the make file when decided to add them.
-;dependencies[] = feeds_ui
-;dependencies[] = feeds_import
-;dependencies[] = feeds
-;dependencies[] = job_scheduler
-
 ; mm256 
 dependencies[] = module_filter
 dependencies[] = admin_menu 
@@ -31,16 +25,37 @@ dependencies[] = contextual
 dependencies[] = nodehierarchy
 dependencies[] = devel_themer
 
-
 ; testing modules
 dependencies[] = superfish
 dependencies[] = menu_firstchild
 dependencies[] = nice_menus
-;dependencies[] = dhtml_menu
-;dependencies[] = menu_position
+dependencies[] = dhtml_menu
+dependencies[] = menu_position
 dependencies[] = jquerymenu
 dependencies[] = strongarm
 dependencies[] = node_convert
+
+dependencies[] = wordpress_migrate
+dependencies[] = migrate
+dependencies[] = migrate_extras
+dependencies[] = globalredirect
+dependencies[] = htmLawed
+dependencies[] = jw_player
+dependencies[] = metatag
+dependencies[] = page_title
+dependencies[] = search404
+dependencies[] = seo_checker
+dependencies[] = seo_checklist
+dependencies[] = checklistapi
+dependencies[] = site_verify
+dependencies[] = xmlsitemap
+
+dependencies[] = feeds_ui
+dependencies[] = feeds_import
+dependencies[] = feeds
+dependencies[] = job_scheduler
+dependencies[] = feeds_xpathparser
+; dependencies[] = redirect
 
 features[features_api][] = api:1 
 
@@ -78,6 +93,11 @@ dependencies[] = panopoly_magic
 dependencies[] = panopoly_widgets
 dependencies[] = panopoly_admin
 dependencies[] = panopoly_users
+
+;dependencies[] = panopoly_demo
+dependencies[] = panopoly_news
+;dependencies[] = panopoly_faq
+;add also panopoly_faq_page and panopoly_faq_question
 
 ; Panopoly Toolset
 dependencies[] = panopoly_pages

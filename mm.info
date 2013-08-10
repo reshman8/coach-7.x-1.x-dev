@@ -3,11 +3,5 @@ description = Development
 core = 7.x  
 project = mm
 
-
-
-; dependencies[] = honeypot
-
+; TCI Install Modules
 dependencies[] = install_stuff
-
-; TCI theme
-;theme = kanji
