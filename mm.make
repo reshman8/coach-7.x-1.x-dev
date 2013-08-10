@@ -55,7 +55,7 @@ projects[navbar][subdir] = contrib
 projects[navbar][version] = 1.0-alpha10
 
 projects[file_entity][subdir] = contrib
-projects[file_entity][version] = 2.x-dev
+projects[file_entity][version] = 2.0-unstable7
 
 projects[media][subdir] = contrib
 projects[media][version] = 1.3
