@@ -23,5 +23,4 @@ projects[mm][download][url] = https://github.com/maustyle/coach-7.x-1.x-dev.git
 
 ; this one reverts Aegir changes for 1.5 Beta1 release
 
-projects[mm][download][revision] = a400af26d4b96c212c6e0163b4058c6279a01e73
-;projects[mm][download][branch] = 7.x-1.0
+;projects[mm][download][revision] = a400af26d4b96c212c6e0163b4058c6279a01e73
