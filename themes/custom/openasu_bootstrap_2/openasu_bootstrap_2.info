@@ -28,3 +28,9 @@ features[] = secondary_menu
 plugins[panels][styles] = styles
 
 settings[default_picture] = 0
+
+; Information added by drush on 2013-08-11
+version = "a400af26d4b96c212c6e0163b4058c6279a01e73"
+project = "mm"
+datestamp = "1376179264"
+
