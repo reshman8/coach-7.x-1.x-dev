@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the TCI Install Menu Configuration feature.
+ */
+
+include_once 'tci_install_menu_configuration.features.inc';

@@ -10,16 +10,16 @@
       //if (!empty($secondary_menu)): ?>
         <div id="topMenu">
 
-          <?php if ($page['main_menu']): 
+          <?php //if ($page['main_menu']): 
         //leaving this if for Future reference?>
         <div id="primaryMenu">
           <?php print render($page['main_menu']); ?>
         </div>
-        <?php elseif (!empty($primary_nav)): ?> 
+        <?php // elseif (!empty($primary_nav)): ?> 
         <div id="primaryMenu">
           <?php print $primary_nav; ?>
         </div>
-        <?php endif; ?>
+        <?php // endif; ?>
 
         <?php if($page['preface_top']): ?>
           <div id="preface_top" class="blockregion">

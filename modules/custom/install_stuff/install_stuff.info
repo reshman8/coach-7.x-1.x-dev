@@ -104,8 +104,14 @@ dependencies[] = panopoly_pages
 ;dependencies[] = panopoly_search
 dependencies[] = panopoly_wysiwyg
 
-; Information added by drush on 2013-08-11
+; Information added by drush on 2013-08-10
 version = "a400af26d4b96c212c6e0163b4058c6279a01e73"
 project = "mm"
-datestamp = "1376179264"
+datestamp = "1376121621"
+
+
+;dependencies[] = tci_install_menu_configuration
+;uuid
+;drush perm-grant --all-modules --roles-="administrator"
+
 

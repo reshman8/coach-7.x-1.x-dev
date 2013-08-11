@@ -130,8 +130,8 @@ projects[panopoly_search][subdir] = panopoly
 
 projects[panopoly_news][subdir] = panopoly
 
-projects[panopoly_faq][subdir] = panopoly
-projects[panopoly_faq][version] = 2.x-dev
+; projects[panopoly_faq][subdir] = panopoly
+;projects[panopoly_faq][version] = 2.x-dev
 ;add also panopoly_faq_page and panopoly_faq_question
 
 ; OpenASU Bootstrap Framework
