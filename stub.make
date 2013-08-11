@@ -21,7 +21,7 @@ projects[mm][download][url] = https://github.com/maustyle/coach-7.x-1.x-dev.git
 ;projects[mm][download][revision] = aaaa5f0
 
 ;version 7.22-1.2
-;projects[mm][download][revision] = a400af26d4b96c212c6e0163b4058c6279a01e73
+projects[mm][download][revision] = a400af26d4b96c212c6e0163b4058c6279a01e73
 
 ;test release of dev1 branch method
 ;projects[mm][download][branch] = dev1
