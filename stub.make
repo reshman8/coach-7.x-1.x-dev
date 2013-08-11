@@ -20,4 +20,8 @@ projects[mm][download][url] = https://github.com/maustyle/coach-7.x-1.x-dev.git
 ;this one triggers the D7-dev betas!
 ;projects[mm][download][revision] = aaaa5f0
 
-;projects[mm][download][branch] = 7.x-1.0
+;version 7.22-1.2
+;projects[mm][download][revision] = a400af26d4b96c212c6e0163b4058c6279a01e73
+
+;test release of dev1 branch method
+;projects[mm][download][branch] = dev1
